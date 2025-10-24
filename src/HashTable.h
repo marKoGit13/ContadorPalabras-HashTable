@@ -24,5 +24,6 @@ class TablaHash{
         ~TablaHash();
 
         void insertar(const std::string& palabra);
-        void buscar(const std::string& palabra) const;
+        int buscar(const std::string& palabra) const;
+        void mostrarTabla() const;
 };
