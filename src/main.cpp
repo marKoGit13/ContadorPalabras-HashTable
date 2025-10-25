@@ -2,35 +2,9 @@
 #include <fstream>  // Para leer archivos (ifstream)
 #include <string>
 #include <vector>   // para vectores
-#include <cctype>   // Para tolower() y isalpha()
+#include "TextUtil.h"
 #include "HashTable.h"
 
-// creamos una funcion limpiador que quita la puntuación 
-// y devuelve en minúsculo la palabra
-
-std::string limpiarPalabra(const std::string& palabra){
-    std::string limpia = "";
-    for(char c : palabra){
-        if(std::isalpha(c)){    //solo evaulua caracteres alfabeticos
-            limpia += std::tolower(c);
-        }
-    }
-    return limpia;
-}
-
-void imprimirResultadoBusqueda(const TablaHash& tabla, const std::string& palabraABuscar) {
-    int conteo = tabla.buscar(palabraABuscar);
-    std::cout << "'" << palabraABuscar << "': " << conteo << std::endl;
-}
-
-void imprimirResultadosPrueba(const TablaHash& tabla, const std::vector<std::string>& palabrasPrueba) {
-    std::cout << "\n--- Resultados de la Prueba ---" << std::endl;
-    // Itera sobre el vector de palabras
-    for (const std::string& palabra : palabrasPrueba) {
-        // Llama a la función que ya teníamos para cada palabra
-        imprimirResultadoBusqueda(tabla, palabra);
-    }
-}
 
 int main(int argc, char *argv[]){
 
@@ -41,11 +15,10 @@ int main(int argc, char *argv[]){
         return 1; // Salir con error
     }
 
-    std::string nombreArchivo = argv[1];
+    TablaHash miTabla(10000);
 
-    TablaHash miTabla(20);
-
-    std::ifstream archivo(nombreArchivo);
+    std::string nombreArchivo = argv[1]; // obtener el nombre del archivo desde los argumentos
+    std::ifstream archivo(nombreArchivo);   // abrir el archivo para lectura
 
     //verificar que se pueda abrir
     if(!archivo.is_open()){
@@ -53,7 +26,7 @@ int main(int argc, char *argv[]){
         return 1;
     }
 
-    std::string palabraLeida;
+    std::string palabraLeida; // variable para almacenar cada palabra leida
 
     //procesar cada palabra del archivo
     while(archivo >> palabraLeida){
@@ -64,18 +37,20 @@ int main(int argc, char *argv[]){
     std::cout << "Lectura de archivo '" << nombreArchivo << "' completada." << std::endl;
 
     // mostrar los buckets con sus listas
-    miTabla.mostrarTabla();
+    miTabla.mostrarTabla();     
 
+    // mostrar el reporte de frecuencias
+    miTabla.reporteFrecuencias();
+
+    //Búsquedas de prueba
+    std::vector<std::string> palabrasBusqueda = {"la", "guerra", "injusta", "y", "paz", "amor", "odio"};
+    for(const std::string& palabra : palabrasBusqueda){
+        int frecuencia = miTabla.buscar(palabra);
+        std::cout << "La palabra '" << palabra << "' aparece " << frecuencia << " veces." << std::endl;
+    }
+    
     //cerrar archivo
     archivo.close();
-
-    // --- Definir la lista de palabras a probar ---
-    std::vector<std::string> palabrasParaProbar = {
-        "hola", "mundo", "estructura", "de", "datos",
-        "este", "es", "un", "texto", "prueba", "simple"
-    };
-
-    imprimirResultadosPrueba(miTabla, palabrasParaProbar);
 
     return 0;
 }

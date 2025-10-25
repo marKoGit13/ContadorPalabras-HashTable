@@ -1,6 +1,7 @@
 #pragma once
 
 #include <string>
+#include <vector>
 
 // Se crea un nodo que contendrá:
 struct Nodo {
@@ -20,10 +21,11 @@ class TablaHash{
         unsigned int funcionHash(const std::string& palabra) const;
 
     public:
-        TablaHash(int cap = 100);
+        TablaHash(int cap);
         ~TablaHash();
 
         void insertar(const std::string& palabra);
         int buscar(const std::string& palabra) const;
         void mostrarTabla() const;
+        void reporteFrecuencias() const;
 };

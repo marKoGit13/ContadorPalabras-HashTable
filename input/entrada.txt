@@ -1,4 +1,0 @@
-Hola mundo.
-Hola, Estructura de Datos!
-Este es un texto de prueba.
-Un texto simple

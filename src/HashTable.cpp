@@ -1,5 +1,6 @@
 #include "HashTable.h"
 #include <iostream>
+#include <vector>
 
 // implementación de nuestro constructor de nodo
 Nodo::Nodo(const std::string& p){
@@ -100,3 +101,24 @@ void TablaHash::mostrarTabla() const {
     std::cout << "-------------------------------------------\n" << std::endl;
 }
 
+void TablaHash::reporteFrecuencias() const {
+    std::cout << "\n--- Reporte de Frecuencia de Palabras ---" << std::endl;
+    int palabrasUnicas = 0; // Para contar cuántas palabras diferentes encontramos
+
+    // Iteramos sobre cada bucket (índice) de la tabla
+    for (int i = 0; i < capacidad; i++) {
+        // Recorremos la lista enlazada en este bucket
+        Nodo* actual = tabla[i];
+        while (actual != nullptr) {
+            // Imprimimos la palabra y su contador
+            std::cout << "'" << actual->palabra << "': " << actual->contador << std::endl;
+            palabrasUnicas++; // Incrementamos el contador de palabras únicas
+            actual = actual->siguiente;
+        }
+        // No imprimimos nada si el bucket está vacío
+    }
+
+    std::cout << "------------------------------------------" << std::endl;
+    std::cout << "Total de palabras unicas encontradas: " << palabrasUnicas << std::endl;
+    std::cout << "------------------------------------------\n" << std::endl;
+}
