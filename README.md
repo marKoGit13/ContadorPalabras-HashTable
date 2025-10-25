@@ -61,21 +61,21 @@ El proyecto utiliza un `Makefile` para simplificar la compilación y ejecución.
 
 ## Estructura del Proyecto
 
-ContadorPalabras-HashTable/ 
-├── Makefile # Script de compilación 
-├── README.md # Documentación del proyecto 
-├── include/ # Archivos de cabecera (.h) 
-│ ├── HashTable.h 
-│ └── TextUtil.h 
-├── src/ # Archivos fuente (.cpp) 
-│ ├── HashTable.cpp 
-│ ├── TextUtil.cpp 
-│ └── main.cpp 
-├── input/ # Archivos de texto de entrada 
-│ └── LaGuerraInjusta.txt 
-├── reporte/ # Archivos de salida (frecuencia de palabras) 
-├── bin/ # Ejecutable compilado 
-├── build/ # Archivos objeto temporales (.o)
+* ContadorPalabras-HashTable/ 
+* ├── Makefile # Script de compilación 
+* ├── README.md # Documentación del proyecto 
+* ├── include/ # Archivos de cabecera (.h) 
+* │ ├── HashTable.h 
+* │ └── TextUtil.h 
+* ├── src/ # Archivos fuente (.cpp) 
+* │ ├── HashTable.cpp 
+* │ ├── TextUtil.cpp 
+* │ └── main.cpp 
+* ├── input/ # Archivos de texto de entrada 
+* │ └── LaGuerraInjusta.txt 
+* ├── reporte/ # Archivos de salida (frecuencia de palabras) 
+* ├── bin/ # Ejecutable compilado 
+* ├── build/ # Archivos objeto temporales (.o)
 
 ---
 
