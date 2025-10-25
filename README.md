@@ -1,7 +1,6 @@
 # Contador de Frecuencia de Palabras con Tabla Hash
 
 [![Lenguaje](https://img.shields.io/badge/Lenguaje-C%2B%2B-blue.svg)](https://isocpp.org/)
-[![Licencia](https://img.shields.io/badge/Licencia-MIT-green.svg)](LICENSE)
 
 Implementación de una Tabla Hash con Encadenamiento Separado (Chaining) en C++ para contar eficientemente la frecuencia de palabras en un archivo de texto.
 
@@ -62,8 +61,21 @@ El proyecto utiliza un `Makefile` para simplificar la compilación y ejecución.
 
 ## Estructura del Proyecto
 
-/ContadorPalabras-HashTable/ |-- Makefile |-- README.md |-- include/ # Archivos de cabecera (.h) | |-- HashTable.h | |-- TextUtil.h |-- src/ # Archivos de implementación (.cpp) | |-- HashTable.cpp | |-- TextUtil.cpp | |-- main.cpp |-- input/ # Archivos de texto de entrada | |-- LaGuerraInjusta.txt |-- reporte/ # Archivos de salida (reporte de frecuencias) |-- bin/ # Ejecutable compilado |-- build/ # Archivos objeto temporales (.o)
-
+ContadorPalabras-HashTable/ 
+├── Makefile # Script de compilación 
+├── README.md # Documentación del proyecto 
+├── include/ # Archivos de cabecera (.h) 
+│ ├── HashTable.h 
+│ └── TextUtil.h 
+├── src/ # Archivos fuente (.cpp) 
+│ ├── HashTable.cpp 
+│ ├── TextUtil.cpp 
+│ └── main.cpp 
+├── input/ # Archivos de texto de entrada 
+│ └── LaGuerraInjusta.txt 
+├── reporte/ # Archivos de salida (frecuencia de palabras) 
+├── bin/ # Ejecutable compilado 
+├── build/ # Archivos objeto temporales (.o)
 
 ---
 
@@ -74,27 +86,3 @@ El proyecto utiliza un `Makefile` para simplificar la compilación y ejecución.
 3.  **Inserción/Conteo:** Se accede al bucket correspondiente. Si la palabra ya existe en la lista enlazada (colisión), se incrementa su contador. Si no existe, se añade un nuevo nodo al inicio de la lista con contador 1.
 4.  **Búsqueda y Reporte:** Se puede buscar la frecuencia de una palabra específica o generar un reporte completo (`reporteFrecuencias`) que recorre toda la tabla.
 
----
-
-## Contribución
-
-Este es un proyecto académico. Por el momento, no se buscan contribuciones externas.
-
----
-
-## Licencia
-
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
-*(Nota: Deberás crear un archivo llamado `LICENSE` y pegar el texto de la licencia MIT allí).*
-
----
-
-## Contacto
-
-Si tienes alguna pregunta o sugerencia, puedes contactar a:
-
-* **[Tu Nombre]** - [tu_email@ejemplo.com]
-* **[Nombre Compañero 1 (si aplica)]** - [email_compañero1@ejemplo.com]
-* *(Añade más compañeros si es necesario)*
-
-*(Reemplaza los placeholders con tu información real).*
