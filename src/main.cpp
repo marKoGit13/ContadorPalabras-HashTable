@@ -1,9 +1,9 @@
 #include <iostream>
-#include <fstream>  // Para leer archivos (ifstream)
+#include <fstream>  
 #include <string>
-#include <vector>   // para vectores
+#include <vector>   
 #include "TextUtil.h"
-#include "HashTable.h"
+#include "include/HashTable.h"
 
 
 int main(int argc, char *argv[]){
