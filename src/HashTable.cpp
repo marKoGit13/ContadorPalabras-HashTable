@@ -1,9 +1,9 @@
-#include "include/HashTable.h"
+#include "HashTable.h"
 #include <iostream>
 #include <vector>
 
 // implementación de nuestro constructor de nodo
-Nodo::Nodo(const std::string& p){
+Nodo::Nodo(const std::string& p){   
     palabra = p;
     contador = 1;       // siempre el contador empieza el 1
     siguiente = nullptr;

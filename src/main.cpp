@@ -3,7 +3,7 @@
 #include <string>
 #include <vector>   
 #include "TextUtil.h"
-#include "include/HashTable.h"
+#include "HashTable.h"
 
 
 int main(int argc, char *argv[]){
