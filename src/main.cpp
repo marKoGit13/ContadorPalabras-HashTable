@@ -8,16 +8,21 @@
 
 int main(int argc, char *argv[]){
 
-    if (argc < 2) {
-        // argc cuenta el nombre del programa, así que necesitamos al menos 2 argumentos
-        std::cerr << "Error: Por favor, especifica el nombre del archivo de entrada." << std::endl;
-        std::cerr << "Uso: " << argv[0] << " input.txt " << std::endl;
+    if (argc < 3) {
+        // argc cuenta el nombre del programa, así que necesitamos al menos 3 argumentos
+        std::cerr << "Error: Faltan argumentos." << std::endl;
+        std::cerr << "Uso: " << argv[0] << " input.txt stop_words.txt " << std::endl;
         return 1; // Salir con error
     }
 
-    TablaHash miTabla(10000);
+    // variables de argumento
+    std::string nombreArchivo = argv[1];
+    std::string stopWordsArchivo = argv[2];
 
-    std::string nombreArchivo = argv[1]; // obtener el nombre del archivo desde los argumentos
+    TextProcessor miProcesador(stopWordsArchivo);
+
+    TablaHash miTabla(73); // un primo grande
+
     std::ifstream archivo(nombreArchivo);   // abrir el archivo para lectura
 
     //verificar que se pueda abrir
@@ -27,30 +32,27 @@ int main(int argc, char *argv[]){
     }
 
     std::string palabraLeida; // variable para almacenar cada palabra leida
+    std::cout << "Procesando archivo '" << nombreArchivo << "'..." << std::endl;
 
     //procesar cada palabra del archivo
     while(archivo >> palabraLeida){
-        std::string palabraLimpia = limpiarPalabra(palabraLeida);
-        miTabla.insertar(palabraLimpia);
+        // Limpiamos la palabra usando el método del procesador
+        std::string palabraLimpia = miProcesador.limpiarPalabra(palabraLeida);
+        // Verificamos que no esté vacía Y que no sea una stop word
+        if (!palabraLimpia.empty() && !miProcesador.esStopWord(palabraLimpia)) {
+            miTabla.insertar(palabraLimpia);
+        }
     }
 
-    std::cout << "Lectura de archivo '" << nombreArchivo << "' completada." << std::endl;
+    archivo.close();
+    std::cout << "Lectura de archivo completada." << std::endl;
+
 
     // mostrar los buckets con sus listas
     miTabla.mostrarTabla();     
 
     // mostrar el reporte de frecuencias
     miTabla.reporteFrecuencias();
-
-    //Búsquedas de prueba
-    std::vector<std::string> palabrasBusqueda = {"la", "guerra", "injusta", "y", "paz", "amor", "odio"};
-    for(const std::string& palabra : palabrasBusqueda){
-        int frecuencia = miTabla.buscar(palabra);
-        std::cout << "La palabra '" << palabra << "' aparece " << frecuencia << " veces." << std::endl;
-    }
-    
-    //cerrar archivo
-    archivo.close();
-
+    miTabla.reporteTopN(20);
     return 0;
 }

@@ -1,6 +1,8 @@
 #include "HashTable.h"
 #include <iostream>
 #include <vector>
+#include <utility>  //para std::pair
+#include <algorithm>    //para std::sort
 
 // implementación de nuestro constructor de nodo
 Nodo::Nodo(const std::string& p){   
@@ -13,7 +15,7 @@ Nodo::Nodo(const std::string& p){
 TablaHash::TablaHash(int cap){
     capacidad = cap;
     tabla = new Nodo*[capacidad]; // creamos un array dinámicamente con la capacidad ingresada
-
+    numElementos = 0;
     for(int i = 0; i < capacidad; i++){
         tabla[i] = nullptr; // inicializamos todos los punteros a nulo
     }
@@ -60,7 +62,53 @@ void TablaHash::insertar(const std::string& palabra) {
     Nodo* nuevoNodo = new Nodo(palabra);
     nuevoNodo->siguiente = tabla[indice];
     tabla[indice] = nuevoNodo;
+    numElementos++;
+    if (static_cast<double>(numElementos) / capacidad > UMBRAL_CARGA) {
+        rehash();
+    }
+}
+
+void TablaHash::rehash() {
+    std::cout << "--- ¡REHASHING ACTIVADO! --- (Carga: " 
+              << static_cast<double>(numElementos) / capacidad << ")" << std::endl;
+
+    // 1. Guardar la tabla vieja y duplicar la capacidad
+    int capacidadVieja = capacidad;
+    Nodo** tablaVieja = tabla;
     
+    capacidad = capacidad * 2; // Duplicamos la capacidad
+    // (Una optimización futura sería elegir un número primo cercano)
+    
+    // 2. Crear la nueva tabla (el puntero 'tabla' ahora apunta a la nueva)
+    tabla = new Nodo*[capacidad];
+    for (int i = 0; i < capacidad; i++) {
+        tabla[i] = nullptr;
+    }
+
+    // 3. Recorrer la tabla vieja y re-insertar todos los nodos
+    //    en la nueva tabla.
+    for (int i = 0; i < capacidadVieja; i++) {
+        Nodo* actual = tablaVieja[i];
+        while (actual != nullptr) {
+            Nodo* siguiente = actual->siguiente; // Guardar el siguiente nodo
+
+            // --- ¡RE-HASH! ---
+            // Recalcular el índice con la *nueva* capacidad
+            unsigned int nuevoIndice = funcionHash(actual->palabra); 
+            
+            // Insertar el nodo 'actual' al inicio de la lista en la NUEVA tabla
+            actual->siguiente = tabla[nuevoIndice];
+            tabla[nuevoIndice] = actual;
+
+            // Moverse al siguiente nodo de la lista vieja
+            actual = siguiente;
+        }
+    }
+
+    // 4. Borrar el arreglo viejo (¡solo el arreglo de punteros, no los nodos!)
+    delete[] tablaVieja;
+
+    std::cout << "--- REHASHING COMPLETADO --- (Nueva Capacidad: " << capacidad << ")" << std::endl;
 }
 
 int TablaHash::buscar(const std::string& palabra) const{
@@ -83,7 +131,7 @@ void TablaHash::mostrarTabla() const {
     std::cout << "\n--- Estructura Interna de la Tabla Hash ---" << std::endl;
     for (int i = 0; i < capacidad; i++) {
         // Imprimir el índice del bucket
-        std::cout << "Bucket " << i << ": ";
+        std::cout << "Bucket " << i << " :";
         
         // Recorrer la lista enlazada en este bucket
         Nodo* actual = tabla[i];
@@ -121,4 +169,40 @@ void TablaHash::reporteFrecuencias() const {
     std::cout << "------------------------------------------" << std::endl;
     std::cout << "Total de palabras unicas encontradas: " << palabrasUnicas << std::endl;
     std::cout << "------------------------------------------\n" << std::endl;
+}
+
+// Esta función le dice a std::sort que ordene los pares
+// basándose en el contador (el .second) de mayor a menor.
+bool compararPares(const std::pair<std::string, int>& a, const std::pair<std::string, int>& b) {
+    return a.second > b.second;
+}
+
+void TablaHash::reporteTopN(unsigned n) const {
+    
+    //Crear un vector temporal para almacenar todos los pares (palabra, contador)
+    std::vector<std::pair<std::string, int>> todasLasPalabras;
+
+    //Recorrer toda la tabla hash 
+    for (int i = 0; i < capacidad; i++) {
+        Nodo* actual = tabla[i];
+        while (actual != nullptr) {
+            // Añadir el par (palabra, contador) al vector
+            todasLasPalabras.push_back(std::make_pair(actual->palabra, actual->contador));
+            actual = actual->siguiente;
+        }
+    }
+
+    // Ordenar el vector
+    // Se usa std::sort con nuestra función de comparación
+    // Esta es la parte algorítmicamente más costosa: O(N log N) 
+    // donde N es el número de palabras *únicas*.
+    std::sort(todasLasPalabras.begin(), todasLasPalabras.end(), compararPares);
+
+    // Imprimir los primeros 'n' resultados
+    std::cout << "\n--- Reporte Top " << n << " Palabras Mas Frecuentes ---" << std::endl;
+    for (unsigned i = 0; i < n && i < todasLasPalabras.size(); i++) {
+        std::cout << (i + 1) << ". '" << todasLasPalabras[i].first 
+                  << "': " << todasLasPalabras[i].second << " veces" << std::endl;
+    }
+    std::cout << "--------------------------------------------------\n" << std::endl;
 }
