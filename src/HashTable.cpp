@@ -72,31 +72,30 @@ void TablaHash::rehash() {
     std::cout << "--- ¡REHASHING ACTIVADO! --- (Carga: " 
               << static_cast<double>(numElementos) / capacidad << ")" << std::endl;
 
-    // 1. Guardar la tabla vieja y duplicar la capacidad
+    //Guardar la tabla vieja y duplicar la capacidad
     int capacidadVieja = capacidad;
     Nodo** tablaVieja = tabla;
     
     capacidad = capacidad * 2; // Duplicamos la capacidad
-    // (Una optimización futura sería elegir un número primo cercano)
     
-    // 2. Crear la nueva tabla (el puntero 'tabla' ahora apunta a la nueva)
+    // Crear la nueva tabla (el puntero tabla ahora apunta a la nueva)
     tabla = new Nodo*[capacidad];
     for (int i = 0; i < capacidad; i++) {
         tabla[i] = nullptr;
     }
 
-    // 3. Recorrer la tabla vieja y re-insertar todos los nodos
-    //    en la nueva tabla.
+    //Recorrer la tabla vieja y re-insertar todos los nodos
+    //en la nueva tabla.
     for (int i = 0; i < capacidadVieja; i++) {
         Nodo* actual = tablaVieja[i];
         while (actual != nullptr) {
             Nodo* siguiente = actual->siguiente; // Guardar el siguiente nodo
 
-            // --- ¡RE-HASH! ---
-            // Recalcular el índice con la *nueva* capacidad
+            //rehash
+            // Recalcular el índice con la nueva capacidad
             unsigned int nuevoIndice = funcionHash(actual->palabra); 
             
-            // Insertar el nodo 'actual' al inicio de la lista en la NUEVA tabla
+            // Insertar el nodo actual al inicio de la lista en la nueva tabla
             actual->siguiente = tabla[nuevoIndice];
             tabla[nuevoIndice] = actual;
 
@@ -105,7 +104,7 @@ void TablaHash::rehash() {
         }
     }
 
-    // 4. Borrar el arreglo viejo (¡solo el arreglo de punteros, no los nodos!)
+    // 4. Borrar el arreglo viejo, no los nodos
     delete[] tablaVieja;
 
     std::cout << "--- REHASHING COMPLETADO --- (Nueva Capacidad: " << capacidad << ")" << std::endl;
@@ -172,7 +171,7 @@ void TablaHash::reporteFrecuencias() const {
 }
 
 // Esta función le dice a std::sort que ordene los pares
-// basándose en el contador (el .second) de mayor a menor.
+// basándose en el contador de mayor a menor.
 bool compararPares(const std::pair<std::string, int>& a, const std::pair<std::string, int>& b) {
     return a.second > b.second;
 }
@@ -195,10 +194,10 @@ void TablaHash::reporteTopN(unsigned n) const {
     // Ordenar el vector
     // Se usa std::sort con nuestra función de comparación
     // Esta es la parte algorítmicamente más costosa: O(N log N) 
-    // donde N es el número de palabras *únicas*.
+    // donde N es el número de palabras únicas.
     std::sort(todasLasPalabras.begin(), todasLasPalabras.end(), compararPares);
 
-    // Imprimir los primeros 'n' resultados
+    // Imprimir los primeros n resultados
     std::cout << "\n--- Reporte Top " << n << " Palabras Mas Frecuentes ---" << std::endl;
     for (unsigned i = 0; i < n && i < todasLasPalabras.size(); i++) {
         std::cout << (i + 1) << ". '" << todasLasPalabras[i].first 

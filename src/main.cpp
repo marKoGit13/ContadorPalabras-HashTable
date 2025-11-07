@@ -19,9 +19,9 @@ int main(int argc, char *argv[]){
     std::string nombreArchivo = argv[1];
     std::string stopWordsArchivo = argv[2];
 
-    TextProcessor miProcesador(stopWordsArchivo);
+    TextProcessor miProcesador(stopWordsArchivo); //cargamos nuestras stop words
 
-    TablaHash miTabla(73); // un primo grande
+    TablaHash TablaDePalabras(73); // usamos un numero primo para mejor asignacion
 
     std::ifstream archivo(nombreArchivo);   // abrir el archivo para lectura
 
@@ -32,6 +32,7 @@ int main(int argc, char *argv[]){
     }
 
     std::string palabraLeida; // variable para almacenar cada palabra leida
+
     std::cout << "Procesando archivo '" << nombreArchivo << "'..." << std::endl;
 
     //procesar cada palabra del archivo
@@ -40,19 +41,17 @@ int main(int argc, char *argv[]){
         std::string palabraLimpia = miProcesador.limpiarPalabra(palabraLeida);
         // Verificamos que no esté vacía Y que no sea una stop word
         if (!palabraLimpia.empty() && !miProcesador.esStopWord(palabraLimpia)) {
-            miTabla.insertar(palabraLimpia);
+            TablaDePalabras.insertar(palabraLimpia);
         }
     }
 
     archivo.close();
     std::cout << "Lectura de archivo completada." << std::endl;
 
-
-    // mostrar los buckets con sus listas
-    miTabla.mostrarTabla();     
-
-    // mostrar el reporte de frecuencias
-    miTabla.reporteFrecuencias();
-    miTabla.reporteTopN(20);
+    //Mostrar reporte general
+    TablaDePalabras.reporteTopN(20);        //las 20 palabras que más aparecen
+    TablaDePalabras.reporteFrecuencias();   //la cantidad de apariciones de cada palabra
+    TablaDePalabras.mostrarTabla();         //ver la tabla hash con su contendio y listas    
+ 
     return 0;
 }

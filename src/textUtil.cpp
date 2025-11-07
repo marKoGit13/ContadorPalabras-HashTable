@@ -36,10 +36,9 @@ std::string TextProcessor::limpiarPalabra(const std::string& palabra) const {
     return limpia;
 }
 
-// --- Implementación de la verificación de Stop Word ---
-// Devuelve 'true' si la palabra está en la tabla de stop words
+// Devuelve true si la palabra está en la tabla de stop words
 bool TextProcessor::esStopWord(const std::string& palabra) const {
     // buscar() devuelve 0 si no la encuentra (no es stop word)
-    // Devuelve > 0 si la encuentra (SÍ es stop word)
+    // Devuelve > 0 si la encuentra (es stop word)
     return stopWords.buscar(palabra) > 0;
 }
