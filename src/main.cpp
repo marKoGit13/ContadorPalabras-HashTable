@@ -33,7 +33,10 @@ int main(int argc, char *argv[]){
 
     std::string palabraLeida; // variable para almacenar cada palabra leida
 
-    std::cout << "Procesando archivo '" << nombreArchivo << "'..." << std::endl;
+    std::cout << "Procesando archivo '" << nombreArchivo << "'... \n" << std::endl;
+
+    std::cout << "Verificando que el factor de carga sea menor a 0.75"<< std::endl;
+    std::cout << "\n Si no es menor, duplicamos la capacidad de la tabla hasta que sea menor"<< std::endl;
 
     //procesar cada palabra del archivo
     while(archivo >> palabraLeida){
@@ -46,12 +49,13 @@ int main(int argc, char *argv[]){
     }
 
     archivo.close();
-    std::cout << "Lectura de archivo completada." << std::endl;
+    std::cout << "Lectura de archivo completada.\n" << std::endl;
 
     //Mostrar reporte general
+    TablaDePalabras.loadFactor();           //mostrar Factor de carga
     TablaDePalabras.reporteTopN(20);        //las 20 palabras que más aparecen
-    TablaDePalabras.reporteFrecuencias();   //la cantidad de apariciones de cada palabra
-    TablaDePalabras.mostrarTabla();         //ver la tabla hash con su contendio y listas    
+    TablaDePalabras.mostrarTabla();         //ver la tabla hash con su contendio y listas  
+    TablaDePalabras.reporteFrecuencias();   //la cantidad de apariciones de cada palabra  
  
     return 0;
 }

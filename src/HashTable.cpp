@@ -69,7 +69,7 @@ void TablaHash::insertar(const std::string& palabra) {
 }
 
 void TablaHash::rehash() {
-    std::cout << "--- ¡REHASHING ACTIVADO! --- (Carga: " 
+    std::cout << "\n--- ¡REHASHING ACTIVADO! --- (Carga: " 
               << static_cast<double>(numElementos) / capacidad << ")" << std::endl;
 
     //Guardar la tabla vieja y duplicar la capacidad
@@ -108,6 +108,13 @@ void TablaHash::rehash() {
     delete[] tablaVieja;
 
     std::cout << "--- REHASHING COMPLETADO --- (Nueva Capacidad: " << capacidad << ")" << std::endl;
+}
+
+void TablaHash::loadFactor(){
+    double Lf = static_cast<double>(numElementos) / capacidad;
+    std::cout <<"----------------------------------"<< std::endl;
+    std::cout <<"El factor de carga final es: ("<<Lf<<") < ("<<UMBRAL_CARGA<<")"<<  std::endl;
+    std::cout <<"----------------------------------"<< std::endl;
 }
 
 int TablaHash::buscar(const std::string& palabra) const{

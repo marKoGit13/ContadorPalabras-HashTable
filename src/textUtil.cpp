@@ -15,14 +15,14 @@ void TextProcessor::cargarStopWords(const std::string& rutaArchivo) {
     }
 
     std::string stopWord;
-    int contador = 0;
+    int contador = 0;   
     while (stopFile >> stopWord) {
         // Asumimos que las stop words ya están limpias y en minúsculas
         stopWords.insertar(stopWord);
         contador++;
     }
     stopFile.close();
-    std::cout << "Se cargaron " << contador << " stop words desde '" << rutaArchivo << "'." << std::endl;
+    std::cout << "Se cargaron " << contador << " stop words desde '" << rutaArchivo << "'. \n" << std::endl;
 }
 
 // Normalizacion de palabras

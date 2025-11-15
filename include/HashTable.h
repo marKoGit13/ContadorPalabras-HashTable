@@ -22,7 +22,7 @@ class TablaHash{
         int numElementos;
         unsigned int funcionHash(const std::string& palabra) const;
         void rehash();
-        static constexpr double UMBRAL_CARGA = 0.75;
+        static constexpr double UMBRAL_CARGA = 0.75; // factor de carga a verficar
 
     public:
         TablaHash(int cap);
@@ -33,4 +33,5 @@ class TablaHash{
         void mostrarTabla() const;
         void reporteFrecuencias() const;
         void reporteTopN(unsigned n = 20) const;
+        void loadFactor();
 };
