@@ -1,0 +1,1675 @@
+Se cargaron 174 stop words desde 'input/stop_words_en.txt'. 
+
+Procesando archivo 'input/Spam/Spam3.txt'... 
+
+Verificando que el factor de carga sea menor a 0.75
+
+ Si no es menor, duplicamos la capacidad de la tabla hasta que sea menor
+
+--- ¡REHASHING ACTIVADO! --- (Carga: 0.753425)
+--- REHASHING COMPLETADO --- (Nueva Capacidad: 146)
+
+--- ¡REHASHING ACTIVADO! --- (Carga: 0.753425)
+--- REHASHING COMPLETADO --- (Nueva Capacidad: 292)
+
+--- ¡REHASHING ACTIVADO! --- (Carga: 0.753425)
+--- REHASHING COMPLETADO --- (Nueva Capacidad: 584)
+
+--- ¡REHASHING ACTIVADO! --- (Carga: 0.751712)
+--- REHASHING COMPLETADO --- (Nueva Capacidad: 1168)
+Lectura de archivo completada.
+
+----------------------------------
+El factor de carga final es: (0.384418) < (0.75)
+----------------------------------
+
+--- Reporte Top 20 Palabras Mas Frecuentes ---
+1. 'china': 24 veces
+2. 'company': 17 veces
+3. 'venture': 17 veces
+4. 'dragon': 16 veces
+5. 'will': 14 veces
+6. 's': 11 veces
+7. 'drgv': 11 veces
+8. 'joint': 10 veces
+9. 'companies': 9 veces
+10. 'applications': 9 veces
+11. 'business': 8 veces
+12. 'statements': 7 veces
+13. 'investment': 7 veces
+14. 'investors': 7 veces
+15. 'mobile': 7 veces
+16. 'logistics': 7 veces
+17. 'information': 7 veces
+18. 'industry': 7 veces
+19. 'potential': 7 veces
+20. 'cnnest': 7 veces
+--------------------------------------------------
+
+
+--- Estructura Interna de la Tabla Hash ---
+Bucket 0 :nullptr
+Bucket 1 :nullptr
+Bucket 2 :nullptr
+Bucket 3 :nullptr
+Bucket 4 :nullptr
+Bucket 5 :nullptr
+Bucket 6 :nullptr
+Bucket 7 :nullptr
+Bucket 8 :[considered: 1] -> nullptr
+Bucket 9 :nullptr
+Bucket 10 :nullptr
+Bucket 11 :nullptr
+Bucket 12 :[among: 2] -> nullptr
+Bucket 13 :[activities: 1] -> nullptr
+Bucket 14 :[emarketer: 1] -> [substantial: 1] -> nullptr
+Bucket 15 :nullptr
+Bucket 16 :[monday: 1] -> [application: 1] -> nullptr
+Bucket 17 :[analysts: 1] -> nullptr
+Bucket 18 :nullptr
+Bucket 19 :[news: 1] -> nullptr
+Bucket 20 :nullptr
+Bucket 21 :nullptr
+Bucket 22 :nullptr
+Bucket 23 :nullptr
+Bucket 24 :nullptr
+Bucket 25 :nullptr
+Bucket 26 :nullptr
+Bucket 27 :[within: 3] -> nullptr
+Bucket 28 :[ltd: 1] -> nullptr
+Bucket 29 :nullptr
+Bucket 30 :[economy: 1] -> nullptr
+Bucket 31 :nullptr
+Bucket 32 :nullptr
+Bucket 33 :nullptr
+Bucket 34 :nullptr
+Bucket 35 :[cnnest: 7] -> nullptr
+Bucket 36 :nullptr
+Bucket 37 :nullptr
+Bucket 38 :[consulting: 1] -> nullptr
+Bucket 39 :nullptr
+Bucket 40 :nullptr
+Bucket 41 :nullptr
+Bucket 42 :nullptr
+Bucket 43 :nullptr
+Bucket 44 :nullptr
+Bucket 45 :[chinese: 5] -> nullptr
+Bucket 46 :nullptr
+Bucket 47 :nullptr
+Bucket 48 :nullptr
+Bucket 49 :nullptr
+Bucket 50 :nullptr
+Bucket 51 :nullptr
+Bucket 52 :[line: 1] -> nullptr
+Bucket 53 :nullptr
+Bucket 54 :nullptr
+Bucket 55 :nullptr
+Bucket 56 :nullptr
+Bucket 57 :nullptr
+Bucket 58 :nullptr
+Bucket 59 :nullptr
+Bucket 60 :[just: 1] -> nullptr
+Bucket 61 :nullptr
+Bucket 62 :nullptr
+Bucket 63 :nullptr
+Bucket 64 :nullptr
+Bucket 65 :[usage: 2] -> nullptr
+Bucket 66 :nullptr
+Bucket 67 :nullptr
+Bucket 68 :[form: 2] -> nullptr
+Bucket 69 :nullptr
+Bucket 70 :nullptr
+Bucket 71 :nullptr
+Bucket 72 :[seek: 1] -> nullptr
+Bucket 73 :nullptr
+Bucket 74 :nullptr
+Bucket 75 :[pk: 1] -> nullptr
+Bucket 76 :nullptr
+Bucket 77 :[time: 6] -> [funding: 1] -> nullptr
+Bucket 78 :nullptr
+Bucket 79 :nullptr
+Bucket 80 :nullptr
+Bucket 81 :nullptr
+Bucket 82 :nullptr
+Bucket 83 :nullptr
+Bucket 84 :[superbly: 1] -> nullptr
+Bucket 85 :nullptr
+Bucket 86 :[destined: 1] -> nullptr
+Bucket 87 :[revenues: 2] -> nullptr
+Bucket 88 :nullptr
+Bucket 89 :[income: 1] -> nullptr
+Bucket 90 :[affairs: 1] -> nullptr
+Bucket 91 :nullptr
+Bucket 92 :nullptr
+Bucket 93 :[turn: 4] -> [forth: 1] -> nullptr
+Bucket 94 :nullptr
+Bucket 95 :nullptr
+Bucket 96 :nullptr
+Bucket 97 :nullptr
+Bucket 98 :nullptr
+Bucket 99 :[spread: 1] -> nullptr
+Bucket 100 :nullptr
+Bucket 101 :[e: 1] -> nullptr
+Bucket 102 :[results: 5] -> nullptr
+Bucket 103 :[g: 1] -> nullptr
+Bucket 104 :nullptr
+Bucket 105 :nullptr
+Bucket 106 :[j: 1] -> nullptr
+Bucket 107 :nullptr
+Bucket 108 :nullptr
+Bucket 109 :[great: 1] -> [account: 1] -> nullptr
+Bucket 110 :nullptr
+Bucket 111 :nullptr
+Bucket 112 :nullptr
+Bucket 113 :nullptr
+Bucket 114 :nullptr
+Bucket 115 :[s: 11] -> nullptr
+Bucket 116 :[t: 1] -> [partnership: 3] -> nullptr
+Bucket 117 :[u: 3] -> nullptr
+Bucket 118 :nullptr
+Bucket 119 :[release: 3] -> nullptr
+Bucket 120 :nullptr
+Bucket 121 :nullptr
+Bucket 122 :nullptr
+Bucket 123 :[expensive: 1] -> nullptr
+Bucket 124 :nullptr
+Bucket 125 :[involve: 1] -> nullptr
+Bucket 126 :[industry: 7] -> nullptr
+Bucket 127 :[support: 1] -> nullptr
+Bucket 128 :[business: 8] -> nullptr
+Bucket 129 :nullptr
+Bucket 130 :[rd: 1] -> nullptr
+Bucket 131 :nullptr
+Bucket 132 :nullptr
+Bucket 133 :nullptr
+Bucket 134 :nullptr
+Bucket 135 :nullptr
+Bucket 136 :nullptr
+Bucket 137 :nullptr
+Bucket 138 :[forecasted: 1] -> [agreement: 3] -> nullptr
+Bucket 139 :nullptr
+Bucket 140 :nullptr
+Bucket 141 :nullptr
+Bucket 142 :nullptr
+Bucket 143 :nullptr
+Bucket 144 :[can: 1] -> nullptr
+Bucket 145 :[happens: 2] -> nullptr
+Bucket 146 :[cap: 1] -> nullptr
+Bucket 147 :nullptr
+Bucket 148 :[gains: 1] -> nullptr
+Bucket 149 :nullptr
+Bucket 150 :[relating: 2] -> nullptr
+Bucket 151 :nullptr
+Bucket 152 :[predicted: 1] -> nullptr
+Bucket 153 :nullptr
+Bucket 154 :[field: 1] -> nullptr
+Bucket 155 :nullptr
+Bucket 156 :nullptr
+Bucket 157 :nullptr
+Bucket 158 :[conduit: 1] -> nullptr
+Bucket 159 :nullptr
+Bucket 160 :[rather: 1] -> [selling: 1] -> nullptr
+Bucket 161 :nullptr
+Bucket 162 :nullptr
+Bucket 163 :nullptr
+Bucket 164 :nullptr
+Bucket 165 :[resources: 1] -> nullptr
+Bucket 166 :nullptr
+Bucket 167 :[growth: 4] -> nullptr
+Bucket 168 :nullptr
+Bucket 169 :[available: 1] -> [financial: 2] -> nullptr
+Bucket 170 :[involving: 1] -> nullptr
+Bucket 171 :nullptr
+Bucket 172 :nullptr
+Bucket 173 :nullptr
+Bucket 174 :nullptr
+Bucket 175 :nullptr
+Bucket 176 :nullptr
+Bucket 177 :[operating: 2] -> nullptr
+Bucket 178 :nullptr
+Bucket 179 :nullptr
+Bucket 180 :nullptr
+Bucket 181 :nullptr
+Bucket 182 :[excellent: 2] -> nullptr
+Bucket 183 :nullptr
+Bucket 184 :[conditions: 2] -> nullptr
+Bucket 185 :nullptr
+Bucket 186 :nullptr
+Bucket 187 :nullptr
+Bucket 188 :[thats: 1] -> [included: 1] -> nullptr
+Bucket 189 :nullptr
+Bucket 190 :nullptr
+Bucket 191 :nullptr
+Bucket 192 :nullptr
+Bucket 193 :nullptr
+Bucket 194 :nullptr
+Bucket 195 :nullptr
+Bucket 196 :[getting: 1] -> nullptr
+Bucket 197 :nullptr
+Bucket 198 :nullptr
+Bucket 199 :[directors: 1] -> [www: 2] -> nullptr
+Bucket 200 :nullptr
+Bucket 201 :nullptr
+Bucket 202 :[please: 1] -> nullptr
+Bucket 203 :nullptr
+Bucket 204 :[uncertainties: 3] -> nullptr
+Bucket 205 :nullptr
+Bucket 206 :nullptr
+Bucket 207 :[partnerships: 1] -> [generated: 1] -> nullptr
+Bucket 208 :nullptr
+Bucket 209 :nullptr
+Bucket 210 :nullptr
+Bucket 211 :nullptr
+Bucket 212 :nullptr
+Bucket 213 :[developing: 2] -> nullptr
+Bucket 214 :nullptr
+Bucket 215 :nullptr
+Bucket 216 :nullptr
+Bucket 217 :[indicate: 1] -> nullptr
+Bucket 218 :nullptr
+Bucket 219 :[research: 3] -> nullptr
+Bucket 220 :nullptr
+Bucket 221 :nullptr
+Bucket 222 :[stage: 1] -> nullptr
+Bucket 223 :[annual: 1] -> nullptr
+Bucket 224 :nullptr
+Bucket 225 :nullptr
+Bucket 226 :nullptr
+Bucket 227 :[buzz: 2] -> [others: 1] -> nullptr
+Bucket 228 :nullptr
+Bucket 229 :nullptr
+Bucket 230 :nullptr
+Bucket 231 :nullptr
+Bucket 232 :nullptr
+Bucket 233 :[plan: 1] -> nullptr
+Bucket 234 :[going: 1] -> nullptr
+Bucket 235 :[forecast: 2] -> nullptr
+Bucket 236 :nullptr
+Bucket 237 :[company: 17] -> nullptr
+Bucket 238 :[us: 4] -> nullptr
+Bucket 239 :nullptr
+Bucket 240 :[money: 1] -> nullptr
+Bucket 241 :nullptr
+Bucket 242 :nullptr
+Bucket 243 :[dissemination: 1] -> nullptr
+Bucket 244 :[profit: 1] -> nullptr
+Bucket 245 :nullptr
+Bucket 246 :nullptr
+Bucket 247 :nullptr
+Bucket 248 :nullptr
+Bucket 249 :nullptr
+Bucket 250 :[since: 1] -> nullptr
+Bucket 251 :nullptr
+Bucket 252 :nullptr
+Bucket 253 :nullptr
+Bucket 254 :nullptr
+Bucket 255 :[system: 3] -> nullptr
+Bucket 256 :nullptr
+Bucket 257 :[efficient: 1] -> nullptr
+Bucket 258 :nullptr
+Bucket 259 :[holding: 1] -> nullptr
+Bucket 260 :nullptr
+Bucket 261 :nullptr
+Bucket 262 :nullptr
+Bucket 263 :nullptr
+Bucket 264 :nullptr
+Bucket 265 :nullptr
+Bucket 266 :nullptr
+Bucket 267 :[announced: 1] -> nullptr
+Bucket 268 :[signed: 1] -> nullptr
+Bucket 269 :[drgv: 11] -> nullptr
+Bucket 270 :nullptr
+Bucket 271 :nullptr
+Bucket 272 :nullptr
+Bucket 273 :[provide: 4] -> nullptr
+Bucket 274 :nullptr
+Bucket 275 :nullptr
+Bucket 276 :[likely: 1] -> nullptr
+Bucket 277 :[innovative: 2] -> nullptr
+Bucket 278 :nullptr
+Bucket 279 :nullptr
+Bucket 280 :[http: 2] -> nullptr
+Bucket 281 :nullptr
+Bucket 282 :[announces: 1] -> nullptr
+Bucket 283 :[everyone: 1] -> nullptr
+Bucket 284 :[dollar: 1] -> [largest: 2] -> nullptr
+Bucket 285 :nullptr
+Bucket 286 :nullptr
+Bucket 287 :nullptr
+Bucket 288 :nullptr
+Bucket 289 :nullptr
+Bucket 290 :[sell: 1] -> nullptr
+Bucket 291 :[global: 2] -> nullptr
+Bucket 292 :nullptr
+Bucket 293 :nullptr
+Bucket 294 :[leading: 3] -> nullptr
+Bucket 295 :nullptr
+Bucket 296 :nullptr
+Bucket 297 :[predict: 2] -> nullptr
+Bucket 298 :[fastest: 1] -> nullptr
+Bucket 299 :[marketplace: 1] -> [expressions: 1] -> nullptr
+Bucket 300 :[shall: 1] -> nullptr
+Bucket 301 :nullptr
+Bucket 302 :nullptr
+Bucket 303 :nullptr
+Bucket 304 :nullptr
+Bucket 305 :nullptr
+Bucket 306 :[differ: 2] -> nullptr
+Bucket 307 :[contained: 2] -> nullptr
+Bucket 308 :nullptr
+Bucket 309 :nullptr
+Bucket 310 :nullptr
+Bucket 311 :nullptr
+Bucket 312 :nullptr
+Bucket 313 :nullptr
+Bucket 314 :[joint: 10] -> nullptr
+Bucket 315 :nullptr
+Bucket 316 :nullptr
+Bucket 317 :nullptr
+Bucket 318 :nullptr
+Bucket 319 :nullptr
+Bucket 320 :nullptr
+Bucket 321 :nullptr
+Bucket 322 :nullptr
+Bucket 323 :nullptr
+Bucket 324 :nullptr
+Bucket 325 :nullptr
+Bucket 326 :nullptr
+Bucket 327 :nullptr
+Bucket 328 :nullptr
+Bucket 329 :[position: 2] -> [imply: 1] -> nullptr
+Bucket 330 :nullptr
+Bucket 331 :nullptr
+Bucket 332 :[industries: 3] -> nullptr
+Bucket 333 :[net: 1] -> nullptr
+Bucket 334 :[securities: 2] -> nullptr
+Bucket 335 :nullptr
+Bucket 336 :[new: 3] -> nullptr
+Bucket 337 :[formation: 1] -> nullptr
+Bucket 338 :nullptr
+Bucket 339 :nullptr
+Bucket 340 :nullptr
+Bucket 341 :[percent: 2] -> nullptr
+Bucket 342 :nullptr
+Bucket 343 :nullptr
+Bucket 344 :nullptr
+Bucket 345 :nullptr
+Bucket 346 :nullptr
+Bucket 347 :nullptr
+Bucket 348 :[market: 4] -> [messages: 1] -> nullptr
+Bucket 349 :nullptr
+Bucket 350 :nullptr
+Bucket 351 :nullptr
+Bucket 352 :nullptr
+Bucket 353 :nullptr
+Bucket 354 :[buffett: 3] -> nullptr
+Bucket 355 :nullptr
+Bucket 356 :[chance: 1] -> nullptr
+Bucket 357 :nullptr
+Bucket 358 :nullptr
+Bucket 359 :nullptr
+Bucket 360 :[says: 1] -> nullptr
+Bucket 361 :nullptr
+Bucket 362 :nullptr
+Bucket 363 :nullptr
+Bucket 364 :nullptr
+Bucket 365 :nullptr
+Bucket 366 :nullptr
+Bucket 367 :nullptr
+Bucket 368 :nullptr
+Bucket 369 :nullptr
+Bucket 370 :nullptr
+Bucket 371 :nullptr
+Bucket 372 :nullptr
+Bucket 373 :[popularity: 1] -> nullptr
+Bucket 374 :nullptr
+Bucket 375 :nullptr
+Bucket 376 :nullptr
+Bucket 377 :[words: 2] -> nullptr
+Bucket 378 :nullptr
+Bucket 379 :nullptr
+Bucket 380 :[sizzling: 1] -> nullptr
+Bucket 381 :[develop: 1] -> nullptr
+Bucket 382 :[flanigan: 1] -> nullptr
+Bucket 383 :nullptr
+Bucket 384 :nullptr
+Bucket 385 :nullptr
+Bucket 386 :[mobile: 7] -> nullptr
+Bucket 387 :nullptr
+Bucket 388 :nullptr
+Bucket 389 :nullptr
+Bucket 390 :[matthew: 1] -> [one: 1] -> nullptr
+Bucket 391 :[markets: 2] -> nullptr
+Bucket 392 :nullptr
+Bucket 393 :[otcpk: 1] -> nullptr
+Bucket 394 :[anticipate: 1] -> nullptr
+Bucket 395 :nullptr
+Bucket 396 :[telecommunication: 1] -> nullptr
+Bucket 397 :[investing: 1] -> nullptr
+Bucket 398 :nullptr
+Bucket 399 :nullptr
+Bucket 400 :nullptr
+Bucket 401 :nullptr
+Bucket 402 :nullptr
+Bucket 403 :nullptr
+Bucket 404 :nullptr
+Bucket 405 :nullptr
+Bucket 406 :nullptr
+Bucket 407 :nullptr
+Bucket 408 :nullptr
+Bucket 409 :[profile: 1] -> nullptr
+Bucket 410 :nullptr
+Bucket 411 :nullptr
+Bucket 412 :[warranty: 1] -> nullptr
+Bucket 413 :[acquisition: 1] -> [meaning: 1] -> nullptr
+Bucket 414 :nullptr
+Bucket 415 :nullptr
+Bucket 416 :[american: 1] -> nullptr
+Bucket 417 :[coming: 1] -> nullptr
+Bucket 418 :nullptr
+Bucket 419 :[months: 1] -> nullptr
+Bucket 420 :nullptr
+Bucket 421 :[may: 5] -> nullptr
+Bucket 422 :nullptr
+Bucket 423 :[restrictions: 1] -> nullptr
+Bucket 424 :[capital: 2] -> nullptr
+Bucket 425 :nullptr
+Bucket 426 :nullptr
+Bucket 427 :nullptr
+Bucket 428 :nullptr
+Bucket 429 :[traffic: 1] -> nullptr
+Bucket 430 :[featured: 1] -> nullptr
+Bucket 431 :nullptr
+Bucket 432 :nullptr
+Bucket 433 :nullptr
+Bucket 434 :nullptr
+Bucket 435 :nullptr
+Bucket 436 :nullptr
+Bucket 437 :nullptr
+Bucket 438 :nullptr
+Bucket 439 :nullptr
+Bucket 440 :nullptr
+Bucket 441 :[cause: 1] -> nullptr
+Bucket 442 :nullptr
+Bucket 443 :nullptr
+Bucket 444 :[professionals: 1] -> nullptr
+Bucket 445 :nullptr
+Bucket 446 :nullptr
+Bucket 447 :nullptr
+Bucket 448 :[point: 1] -> nullptr
+Bucket 449 :nullptr
+Bucket 450 :[strike: 1] -> nullptr
+Bucket 451 :nullptr
+Bucket 452 :nullptr
+Bucket 453 :[forward: 4] -> nullptr
+Bucket 454 :[alter: 1] -> nullptr
+Bucket 455 :nullptr
+Bucket 456 :nullptr
+Bucket 457 :[regulations: 1] -> nullptr
+Bucket 458 :nullptr
+Bucket 459 :[investors: 7] -> nullptr
+Bucket 460 :[alert: 2] -> nullptr
+Bucket 461 :[gets: 1] -> [subsidiary: 1] -> nullptr
+Bucket 462 :nullptr
+Bucket 463 :nullptr
+Bucket 464 :nullptr
+Bucket 465 :nullptr
+Bucket 466 :[set: 1] -> nullptr
+Bucket 467 :nullptr
+Bucket 468 :[access: 2] -> nullptr
+Bucket 469 :nullptr
+Bucket 470 :nullptr
+Bucket 471 :[use: 2] -> [strong: 1] -> nullptr
+Bucket 472 :[estimate: 1] -> nullptr
+Bucket 473 :nullptr
+Bucket 474 :nullptr
+Bucket 475 :nullptr
+Bucket 476 :[transportation: 1] -> nullptr
+Bucket 477 :nullptr
+Bucket 478 :nullptr
+Bucket 479 :[share: 5] -> [competition: 1] -> nullptr
+Bucket 480 :[change: 2] -> nullptr
+Bucket 481 :[unicom: 1] -> nullptr
+Bucket 482 :nullptr
+Bucket 483 :nullptr
+Bucket 484 :nullptr
+Bucket 485 :nullptr
+Bucket 486 :[country: 1] -> nullptr
+Bucket 487 :nullptr
+Bucket 488 :nullptr
+Bucket 489 :nullptr
+Bucket 490 :nullptr
+Bucket 491 :nullptr
+Bucket 492 :[addition: 2] -> nullptr
+Bucket 493 :[officers: 1] -> nullptr
+Bucket 494 :nullptr
+Bucket 495 :nullptr
+Bucket 496 :nullptr
+Bucket 497 :[period: 1] -> [received: 2] -> nullptr
+Bucket 498 :nullptr
+Bucket 499 :[trucking: 2] -> nullptr
+Bucket 500 :nullptr
+Bucket 501 :nullptr
+Bucket 502 :nullptr
+Bucket 503 :[competitors: 1] -> nullptr
+Bucket 504 :nullptr
+Bucket 505 :nullptr
+Bucket 506 :nullptr
+Bucket 507 :nullptr
+Bucket 508 :nullptr
+Bucket 509 :nullptr
+Bucket 510 :[info: 1] -> nullptr
+Bucket 511 :nullptr
+Bucket 512 :[president: 2] -> nullptr
+Bucket 513 :nullptr
+Bucket 514 :nullptr
+Bucket 515 :[investment: 7] -> nullptr
+Bucket 516 :[penny: 1] -> nullptr
+Bucket 517 :nullptr
+Bucket 518 :[read: 1] -> [offering: 1] -> nullptr
+Bucket 519 :nullptr
+Bucket 520 :nullptr
+Bucket 521 :nullptr
+Bucket 522 :nullptr
+Bucket 523 :nullptr
+Bucket 524 :nullptr
+Bucket 525 :nullptr
+Bucket 526 :[real: 1] -> nullptr
+Bucket 527 :[gone: 1] -> nullptr
+Bucket 528 :nullptr
+Bucket 529 :nullptr
+Bucket 530 :nullptr
+Bucket 531 :nullptr
+Bucket 532 :[micro: 1] -> nullptr
+Bucket 533 :[economic: 1] -> nullptr
+Bucket 534 :nullptr
+Bucket 535 :[message: 1] -> [lauderdale: 1] -> nullptr
+Bucket 536 :[notice: 1] -> nullptr
+Bucket 537 :nullptr
+Bucket 538 :nullptr
+Bucket 539 :nullptr
+Bucket 540 :nullptr
+Bucket 541 :nullptr
+Bucket 542 :nullptr
+Bucket 543 :[ministry: 1] -> [ownership: 2] -> nullptr
+Bucket 544 :nullptr
+Bucket 545 :nullptr
+Bucket 546 :nullptr
+Bucket 547 :nullptr
+Bucket 548 :nullptr
+Bucket 549 :[equity: 1] -> nullptr
+Bucket 550 :nullptr
+Bucket 551 :[additional: 2] -> nullptr
+Bucket 552 :[portfolio: 1] -> nullptr
+Bucket 553 :nullptr
+Bucket 554 :nullptr
+Bucket 555 :[similar: 1] -> nullptr
+Bucket 556 :[intend: 1] -> nullptr
+Bucket 557 :nullptr
+Bucket 558 :nullptr
+Bucket 559 :nullptr
+Bucket 560 :nullptr
+Bucket 561 :nullptr
+Bucket 562 :[upside: 1] -> nullptr
+Bucket 563 :nullptr
+Bucket 564 :[messaging: 1] -> nullptr
+Bucket 565 :nullptr
+Bucket 566 :[marketing: 1] -> nullptr
+Bucket 567 :nullptr
+Bucket 568 :[include: 2] -> nullptr
+Bucket 569 :[current: 2] -> nullptr
+Bucket 570 :nullptr
+Bucket 571 :nullptr
+Bucket 572 :[intent: 1] -> nullptr
+Bucket 573 :nullptr
+Bucket 574 :[otc: 1] -> nullptr
+Bucket 575 :nullptr
+Bucket 576 :nullptr
+Bucket 577 :[com: 1] -> [internet: 4] -> nullptr
+Bucket 578 :nullptr
+Bucket 579 :nullptr
+Bucket 580 :nullptr
+Bucket 581 :nullptr
+Bucket 582 :nullptr
+Bucket 583 :nullptr
+Bucket 584 :nullptr
+Bucket 585 :nullptr
+Bucket 586 :[commercial: 1] -> nullptr
+Bucket 587 :nullptr
+Bucket 588 :nullptr
+Bucket 589 :nullptr
+Bucket 590 :nullptr
+Bucket 591 :nullptr
+Bucket 592 :[big: 1] -> nullptr
+Bucket 593 :[incubator: 1] -> nullptr
+Bucket 594 :[europe: 1] -> nullptr
+Bucket 595 :nullptr
+Bucket 596 :nullptr
+Bucket 597 :nullptr
+Bucket 598 :[tech: 5] -> [associated: 1] -> nullptr
+Bucket 599 :nullptr
+Bucket 600 :[recently: 2] -> nullptr
+Bucket 601 :nullptr
+Bucket 602 :[successful: 1] -> nullptr
+Bucket 603 :[refinement: 1] -> nullptr
+Bucket 604 :nullptr
+Bucket 605 :nullptr
+Bucket 606 :nullptr
+Bucket 607 :nullptr
+Bucket 608 :nullptr
+Bucket 609 :nullptr
+Bucket 610 :[world: 3] -> [according: 1] -> nullptr
+Bucket 611 :[applications: 9] -> nullptr
+Bucket 612 :[achievements: 1] -> nullptr
+Bucket 613 :[particular: 1] -> nullptr
+Bucket 614 :nullptr
+Bucket 615 :nullptr
+Bucket 616 :[general: 2] -> nullptr
+Bucket 617 :nullptr
+Bucket 618 :nullptr
+Bucket 619 :nullptr
+Bucket 620 :nullptr
+Bucket 621 :nullptr
+Bucket 622 :nullptr
+Bucket 623 :nullptr
+Bucket 624 :nullptr
+Bucket 625 :[player: 1] -> [state: 1] -> nullptr
+Bucket 626 :nullptr
+Bucket 627 :[everything: 1] -> [management: 1] -> [invaluable: 1] -> nullptr
+Bucket 628 :nullptr
+Bucket 629 :nullptr
+Bucket 630 :nullptr
+Bucket 631 :nullptr
+Bucket 632 :nullptr
+Bucket 633 :nullptr
+Bucket 634 :nullptr
+Bucket 635 :[essentially: 1] -> nullptr
+Bucket 636 :nullptr
+Bucket 637 :nullptr
+Bucket 638 :[acquired: 1] -> nullptr
+Bucket 639 :[chances: 1] -> nullptr
+Bucket 640 :nullptr
+Bucket 641 :nullptr
+Bucket 642 :nullptr
+Bucket 643 :nullptr
+Bucket 644 :nullptr
+Bucket 645 :nullptr
+Bucket 646 :[now: 1] -> nullptr
+Bucket 647 :nullptr
+Bucket 648 :nullptr
+Bucket 649 :nullptr
+Bucket 650 :nullptr
+Bucket 651 :[development: 4] -> [visit: 1] -> nullptr
+Bucket 652 :[technology: 6] -> nullptr
+Bucket 653 :[acquires: 1] -> nullptr
+Bucket 654 :nullptr
+Bucket 655 :[dedicated: 1] -> nullptr
+Bucket 656 :[ventures: 2] -> nullptr
+Bucket 657 :nullptr
+Bucket 658 :[will: 14] -> nullptr
+Bucket 659 :[reported: 1] -> nullptr
+Bucket 660 :nullptr
+Bucket 661 :nullptr
+Bucket 662 :nullptr
+Bucket 663 :nullptr
+Bucket 664 :nullptr
+Bucket 665 :[must: 1] -> nullptr
+Bucket 666 :[asia: 1] -> nullptr
+Bucket 667 :nullptr
+Bucket 668 :nullptr
+Bucket 669 :[cost: 1] -> nullptr
+Bucket 670 :[date: 2] -> nullptr
+Bucket 671 :[critical: 1] -> nullptr
+Bucket 672 :nullptr
+Bucket 673 :nullptr
+Bucket 674 :nullptr
+Bucket 675 :nullptr
+Bucket 676 :[foreign: 1] -> nullptr
+Bucket 677 :[advertisement: 1] -> nullptr
+Bucket 678 :nullptr
+Bucket 679 :nullptr
+Bucket 680 :nullptr
+Bucket 681 :[broker: 1] -> nullptr
+Bucket 682 :nullptr
+Bucket 683 :nullptr
+Bucket 684 :nullptr
+Bucket 685 :[range: 1] -> nullptr
+Bucket 686 :nullptr
+Bucket 687 :[competitive: 1] -> nullptr
+Bucket 688 :nullptr
+Bucket 689 :nullptr
+Bucket 690 :nullptr
+Bucket 691 :nullptr
+Bucket 692 :nullptr
+Bucket 693 :nullptr
+Bucket 694 :[affiliates: 1] -> nullptr
+Bucket 695 :[far: 1] -> nullptr
+Bucket 696 :nullptr
+Bucket 697 :[price: 1] -> [solution: 1] -> nullptr
+Bucket 698 :[solutions: 4] -> [excited: 1] -> nullptr
+Bucket 699 :[anywhere: 1] -> nullptr
+Bucket 700 :nullptr
+Bucket 701 :nullptr
+Bucket 702 :nullptr
+Bucket 703 :nullptr
+Bucket 704 :[solicitation: 1] -> nullptr
+Bucket 705 :nullptr
+Bucket 706 :nullptr
+Bucket 707 :nullptr
+Bucket 708 :nullptr
+Bucket 709 :nullptr
+Bucket 710 :[stock: 5] -> nullptr
+Bucket 711 :[telecommunications: 2] -> nullptr
+Bucket 712 :nullptr
+Bucket 713 :[public: 1] -> [sms: 3] -> nullptr
+Bucket 714 :nullptr
+Bucket 715 :[companies: 9] -> nullptr
+Bucket 716 :nullptr
+Bucket 717 :[hot: 2] -> nullptr
+Bucket 718 :[commented: 1] -> nullptr
+Bucket 719 :nullptr
+Bucket 720 :nullptr
+Bucket 721 :nullptr
+Bucket 722 :nullptr
+Bucket 723 :nullptr
+Bucket 724 :[history: 1] -> nullptr
+Bucket 725 :nullptr
+Bucket 726 :nullptr
+Bucket 727 :nullptr
+Bucket 728 :[knows: 2] -> nullptr
+Bucket 729 :[cheng: 1] -> nullptr
+Bucket 730 :nullptr
+Bucket 731 :[force: 1] -> nullptr
+Bucket 732 :[enormous: 2] -> nullptr
+Bucket 733 :[federal: 1] -> nullptr
+Bucket 734 :nullptr
+Bucket 735 :[breakout: 1] -> [growing: 3] -> nullptr
+Bucket 736 :nullptr
+Bucket 737 :nullptr
+Bucket 738 :nullptr
+Bucket 739 :nullptr
+Bucket 740 :nullptr
+Bucket 741 :[including: 3] -> nullptr
+Bucket 742 :nullptr
+Bucket 743 :nullptr
+Bucket 744 :nullptr
+Bucket 745 :nullptr
+Bucket 746 :nullptr
+Bucket 747 :nullptr
+Bucket 748 :nullptr
+Bucket 749 :nullptr
+Bucket 750 :nullptr
+Bucket 751 :nullptr
+Bucket 752 :nullptr
+Bucket 753 :nullptr
+Bucket 754 :nullptr
+Bucket 755 :[warren: 2] -> nullptr
+Bucket 756 :nullptr
+Bucket 757 :[nearly: 1] -> [generate: 1] -> nullptr
+Bucket 758 :nullptr
+Bucket 759 :nullptr
+Bucket 760 :[users: 1] -> nullptr
+Bucket 761 :nullptr
+Bucket 762 :nullptr
+Bucket 763 :[primezone: 1] -> [landscape: 1] -> nullptr
+Bucket 764 :nullptr
+Bucket 765 :nullptr
+Bucket 766 :[services: 2] -> nullptr
+Bucket 767 :nullptr
+Bucket 768 :nullptr
+Bucket 769 :[targeting: 1] -> nullptr
+Bucket 770 :nullptr
+Bucket 771 :[venture: 17] -> nullptr
+Bucket 772 :[building: 1] -> nullptr
+Bucket 773 :nullptr
+Bucket 774 :nullptr
+Bucket 775 :nullptr
+Bucket 776 :nullptr
+Bucket 777 :nullptr
+Bucket 778 :nullptr
+Bucket 779 :nullptr
+Bucket 780 :nullptr
+Bucket 781 :nullptr
+Bucket 782 :nullptr
+Bucket 783 :nullptr
+Bucket 784 :nullptr
+Bucket 785 :[today: 2] -> nullptr
+Bucket 786 :[solely: 1] -> nullptr
+Bucket 787 :[stated: 1] -> [based: 1] -> nullptr
+Bucket 788 :[statements: 7] -> nullptr
+Bucket 789 :nullptr
+Bucket 790 :nullptr
+Bucket 791 :[third: 2] -> nullptr
+Bucket 792 :nullptr
+Bucket 793 :nullptr
+Bucket 794 :[independent: 1] -> nullptr
+Bucket 795 :nullptr
+Bucket 796 :nullptr
+Bucket 797 :nullptr
+Bucket 798 :[actual: 2] -> nullptr
+Bucket 799 :nullptr
+Bucket 800 :nullptr
+Bucket 801 :nullptr
+Bucket 802 :nullptr
+Bucket 803 :nullptr
+Bucket 804 :nullptr
+Bucket 805 :nullptr
+Bucket 806 :[fee: 2] -> nullptr
+Bucket 807 :nullptr
+Bucket 808 :[established: 1] -> [poised: 1] -> nullptr
+Bucket 809 :[reputation: 1] -> nullptr
+Bucket 810 :nullptr
+Bucket 811 :nullptr
+Bucket 812 :[two: 1] -> nullptr
+Bucket 813 :nullptr
+Bucket 814 :nullptr
+Bucket 815 :nullptr
+Bucket 816 :nullptr
+Bucket 817 :[move: 1] -> nullptr
+Bucket 818 :nullptr
+Bucket 819 :nullptr
+Bucket 820 :nullptr
+Bucket 821 :[made: 1] -> nullptr
+Bucket 822 :nullptr
+Bucket 823 :nullptr
+Bucket 824 :nullptr
+Bucket 825 :nullptr
+Bucket 826 :nullptr
+Bucket 827 :[huge: 3] -> [functions: 2] -> nullptr
+Bucket 828 :[doubt: 1] -> [revenue: 2] -> nullptr
+Bucket 829 :nullptr
+Bucket 830 :nullptr
+Bucket 831 :nullptr
+Bucket 832 :[performance: 3] -> nullptr
+Bucket 833 :[laws: 1] -> nullptr
+Bucket 834 :nullptr
+Bucket 835 :[logistics: 7] -> nullptr
+Bucket 836 :nullptr
+Bucket 837 :nullptr
+Bucket 838 :nullptr
+Bucket 839 :[days: 1] -> nullptr
+Bucket 840 :[investor: 2] -> nullptr
+Bucket 841 :nullptr
+Bucket 842 :[ability: 1] -> nullptr
+Bucket 843 :[bottom: 1] -> nullptr
+Bucket 844 :nullptr
+Bucket 845 :nullptr
+Bucket 846 :nullptr
+Bucket 847 :nullptr
+Bucket 848 :[advisor: 1] -> nullptr
+Bucket 849 :nullptr
+Bucket 850 :[explodes: 1] -> nullptr
+Bucket 851 :nullptr
+Bucket 852 :[placing: 1] -> [runyuan: 6] -> nullptr
+Bucket 853 :nullptr
+Bucket 854 :[responsible: 1] -> nullptr
+Bucket 855 :[telecom: 2] -> nullptr
+Bucket 856 :nullptr
+Bucket 857 :nullptr
+Bucket 858 :nullptr
+Bucket 859 :nullptr
+Bucket 860 :nullptr
+Bucket 861 :nullptr
+Bucket 862 :[worth: 1] -> nullptr
+Bucket 863 :nullptr
+Bucket 864 :nullptr
+Bucket 865 :[xintong: 1] -> nullptr
+Bucket 866 :[providers: 1] -> nullptr
+Bucket 867 :[press: 3] -> nullptr
+Bucket 868 :[materially: 2] -> nullptr
+Bucket 869 :nullptr
+Bucket 870 :nullptr
+Bucket 871 :nullptr
+Bucket 872 :[constitute: 2] -> nullptr
+Bucket 873 :nullptr
+Bucket 874 :[merger: 1] -> nullptr
+Bucket 875 :nullptr
+Bucket 876 :nullptr
+Bucket 877 :nullptr
+Bucket 878 :[domestic: 1] -> nullptr
+Bucket 879 :nullptr
+Bucket 880 :[rely: 1] -> [dragonventure: 1] -> nullptr
+Bucket 881 :nullptr
+Bucket 882 :nullptr
+Bucket 883 :nullptr
+Bucket 884 :nullptr
+Bucket 885 :nullptr
+Bucket 886 :[signs: 1] -> nullptr
+Bucket 887 :nullptr
+Bucket 888 :nullptr
+Bucket 889 :nullptr
+Bucket 890 :nullptr
+Bucket 891 :nullptr
+Bucket 892 :nullptr
+Bucket 893 :nullptr
+Bucket 894 :[phone: 2] -> [invests: 1] -> nullptr
+Bucket 895 :nullptr
+Bucket 896 :nullptr
+Bucket 897 :nullptr
+Bucket 898 :nullptr
+Bucket 899 :[another: 3] -> [future: 3] -> nullptr
+Bucket 900 :[asian: 1] -> [contain: 1] -> nullptr
+Bucket 901 :nullptr
+Bucket 902 :[hidy: 1] -> nullptr
+Bucket 903 :nullptr
+Bucket 904 :[tremendous: 1] -> [focus: 2] -> nullptr
+Bucket 905 :nullptr
+Bucket 906 :[compensation: 1] -> nullptr
+Bucket 907 :nullptr
+Bucket 908 :nullptr
+Bucket 909 :[manager: 1] -> nullptr
+Bucket 910 :nullptr
+Bucket 911 :[et: 1] -> nullptr
+Bucket 912 :nullptr
+Bucket 913 :nullptr
+Bucket 914 :nullptr
+Bucket 915 :nullptr
+Bucket 916 :[ste: 1] -> [trade: 1] -> nullptr
+Bucket 917 :nullptr
+Bucket 918 :nullptr
+Bucket 919 :[small: 1] -> nullptr
+Bucket 920 :nullptr
+Bucket 921 :nullptr
+Bucket 922 :[limitation: 1] -> nullptr
+Bucket 923 :nullptr
+Bucket 924 :[rich: 1] -> nullptr
+Bucket 925 :[chunk: 1] -> [safe: 1] -> nullptr
+Bucket 926 :nullptr
+Bucket 927 :[guoding: 1] -> nullptr
+Bucket 928 :nullptr
+Bucket 929 :nullptr
+Bucket 930 :[registered: 1] -> nullptr
+Bucket 931 :nullptr
+Bucket 932 :nullptr
+Bucket 933 :nullptr
+Bucket 934 :nullptr
+Bucket 935 :nullptr
+Bucket 936 :nullptr
+Bucket 937 :nullptr
+Bucket 938 :[cellular: 1] -> nullptr
+Bucket 939 :nullptr
+Bucket 940 :[operations: 1] -> nullptr
+Bucket 941 :nullptr
+Bucket 942 :[ft: 1] -> nullptr
+Bucket 943 :[gain: 1] -> nullptr
+Bucket 944 :nullptr
+Bucket 945 :nullptr
+Bucket 946 :[opinion: 1] -> nullptr
+Bucket 947 :nullptr
+Bucket 948 :nullptr
+Bucket 949 :[vice: 1] -> nullptr
+Bucket 950 :nullptr
+Bucket 951 :nullptr
+Bucket 952 :[blast: 1] -> nullptr
+Bucket 953 :nullptr
+Bucket 954 :[focusing: 1] -> nullptr
+Bucket 955 :[guarantees: 1] -> nullptr
+Bucket 956 :nullptr
+Bucket 957 :nullptr
+Bucket 958 :nullptr
+Bucket 959 :[winner: 1] -> nullptr
+Bucket 960 :[emerging: 1] -> nullptr
+Bucket 961 :[target: 1] -> nullptr
+Bucket 962 :nullptr
+Bucket 963 :[accessed: 1] -> nullptr
+Bucket 964 :[believe: 3] -> nullptr
+Bucket 965 :nullptr
+Bucket 966 :nullptr
+Bucket 967 :nullptr
+Bucket 968 :nullptr
+Bucket 969 :nullptr
+Bucket 970 :[seeking: 1] -> nullptr
+Bucket 971 :[presence: 1] -> nullptr
+Bucket 972 :nullptr
+Bucket 973 :nullptr
+Bucket 974 :nullptr
+Bucket 975 :nullptr
+Bucket 976 :nullptr
+Bucket 977 :nullptr
+Bucket 978 :[high: 6] -> nullptr
+Bucket 979 :[changes: 1] -> nullptr
+Bucket 980 :nullptr
+Bucket 981 :nullptr
+Bucket 982 :[buy: 2] -> nullptr
+Bucket 983 :[mail: 1] -> nullptr
+Bucket 984 :[advertisers: 1] -> nullptr
+Bucket 985 :nullptr
+Bucket 986 :nullptr
+Bucket 987 :nullptr
+Bucket 988 :[subject: 4] -> nullptr
+Bucket 989 :[planning: 1] -> nullptr
+Bucket 990 :nullptr
+Bucket 991 :nullptr
+Bucket 992 :nullptr
+Bucket 993 :nullptr
+Bucket 994 :nullptr
+Bucket 995 :[ready: 1] -> [freight: 1] -> nullptr
+Bucket 996 :nullptr
+Bucket 997 :nullptr
+Bucket 998 :nullptr
+Bucket 999 :nullptr
+Bucket 1000 :nullptr
+Bucket 1001 :[project: 1] -> nullptr
+Bucket 1002 :[limited: 5] -> nullptr
+Bucket 1003 :nullptr
+Bucket 1004 :[harbor: 1] -> nullptr
+Bucket 1005 :nullptr
+Bucket 1006 :nullptr
+Bucket 1007 :nullptr
+Bucket 1008 :[starting: 1] -> nullptr
+Bucket 1009 :nullptr
+Bucket 1010 :nullptr
+Bucket 1011 :nullptr
+Bucket 1012 :[risks: 3] -> nullptr
+Bucket 1013 :[niche: 1] -> nullptr
+Bucket 1014 :[party: 1] -> nullptr
+Bucket 1015 :nullptr
+Bucket 1016 :[july: 2] -> nullptr
+Bucket 1017 :[said: 2] -> nullptr
+Bucket 1018 :nullptr
+Bucket 1019 :[shanghai: 6] -> [fla: 1] -> nullptr
+Bucket 1020 :[indication: 1] -> nullptr
+Bucket 1021 :nullptr
+Bucket 1022 :nullptr
+Bucket 1023 :nullptr
+Bucket 1024 :nullptr
+Bucket 1025 :nullptr
+Bucket 1026 :nullptr
+Bucket 1027 :nullptr
+Bucket 1028 :nullptr
+Bucket 1029 :[view: 1] -> nullptr
+Bucket 1030 :nullptr
+Bucket 1031 :nullptr
+Bucket 1032 :[specializes: 1] -> [informed: 1] -> nullptr
+Bucket 1033 :[establish: 1] -> nullptr
+Bucket 1034 :nullptr
+Bucket 1035 :nullptr
+Bucket 1036 :nullptr
+Bucket 1037 :nullptr
+Bucket 1038 :nullptr
+Bucket 1039 :[usually: 1] -> [statement: 2] -> nullptr
+Bucket 1040 :nullptr
+Bucket 1041 :[strategies: 1] -> nullptr
+Bucket 1042 :nullptr
+Bucket 1043 :nullptr
+Bucket 1044 :nullptr
+Bucket 1045 :nullptr
+Bucket 1046 :nullptr
+Bucket 1047 :nullptr
+Bucket 1048 :nullptr
+Bucket 1049 :nullptr
+Bucket 1050 :nullptr
+Bucket 1051 :nullptr
+Bucket 1052 :nullptr
+Bucket 1053 :nullptr
+Bucket 1054 :[wireless: 2] -> nullptr
+Bucket 1055 :[forms: 1] -> nullptr
+Bucket 1056 :nullptr
+Bucket 1057 :nullptr
+Bucket 1058 :nullptr
+Bucket 1059 :nullptr
+Bucket 1060 :nullptr
+Bucket 1061 :[herein: 1] -> nullptr
+Bucket 1062 :nullptr
+Bucket 1063 :[phenomenon: 1] -> [china: 24] -> nullptr
+Bucket 1064 :nullptr
+Bucket 1065 :nullptr
+Bucket 1066 :nullptr
+Bucket 1067 :[appreciation: 1] -> [subsidiaries: 1] -> nullptr
+Bucket 1068 :[term: 2] -> nullptr
+Bucket 1069 :nullptr
+Bucket 1070 :nullptr
+Bucket 1071 :nullptr
+Bucket 1072 :[return: 1] -> nullptr
+Bucket 1073 :nullptr
+Bucket 1074 :[certain: 1] -> nullptr
+Bucket 1075 :nullptr
+Bucket 1076 :nullptr
+Bucket 1077 :[mean: 1] -> nullptr
+Bucket 1078 :nullptr
+Bucket 1079 :nullptr
+Bucket 1080 :nullptr
+Bucket 1081 :[dealer: 1] -> nullptr
+Bucket 1082 :nullptr
+Bucket 1083 :nullptr
+Bucket 1084 :nullptr
+Bucket 1085 :[per: 2] -> nullptr
+Bucket 1086 :nullptr
+Bucket 1087 :[reports: 1] -> nullptr
+Bucket 1088 :nullptr
+Bucket 1089 :nullptr
+Bucket 1090 :[technological: 1] -> nullptr
+Bucket 1091 :nullptr
+Bucket 1092 :nullptr
+Bucket 1093 :nullptr
+Bucket 1094 :nullptr
+Bucket 1095 :nullptr
+Bucket 1096 :[without: 2] -> nullptr
+Bucket 1097 :[mentioned: 1] -> nullptr
+Bucket 1098 :nullptr
+Bucket 1099 :[poured: 1] -> nullptr
+Bucket 1100 :[short: 3] -> nullptr
+Bucket 1101 :[stocks: 3] -> nullptr
+Bucket 1102 :nullptr
+Bucket 1103 :nullptr
+Bucket 1104 :nullptr
+Bucket 1105 :nullptr
+Bucket 1106 :nullptr
+Bucket 1107 :[street: 2] -> nullptr
+Bucket 1108 :nullptr
+Bucket 1109 :nullptr
+Bucket 1110 :[won: 1] -> nullptr
+Bucket 1111 :nullptr
+Bucket 1112 :nullptr
+Bucket 1113 :[smart: 1] -> nullptr
+Bucket 1114 :[profiles: 1] -> nullptr
+Bucket 1115 :nullptr
+Bucket 1116 :[million: 3] -> nullptr
+Bucket 1117 :nullptr
+Bucket 1118 :nullptr
+Bucket 1119 :nullptr
+Bucket 1120 :[ll: 1] -> nullptr
+Bucket 1121 :[trading: 1] -> [valuation: 1] -> nullptr
+Bucket 1122 :nullptr
+Bucket 1123 :[grow: 1] -> nullptr
+Bucket 1124 :[factual: 1] -> [report: 4] -> nullptr
+Bucket 1125 :nullptr
+Bucket 1126 :nullptr
+Bucket 1127 :[like: 2] -> nullptr
+Bucket 1128 :[iron: 1] -> nullptr
+Bucket 1129 :nullptr
+Bucket 1130 :[exceptional: 1] -> nullptr
+Bucket 1131 :nullptr
+Bucket 1132 :[information: 7] -> nullptr
+Bucket 1133 :nullptr
+Bucket 1134 :nullptr
+Bucket 1135 :nullptr
+Bucket 1136 :nullptr
+Bucket 1137 :nullptr
+Bucket 1138 :[western: 2] -> nullptr
+Bucket 1139 :[opportunity: 3] -> nullptr
+Bucket 1140 :nullptr
+Bucket 1141 :nullptr
+Bucket 1142 :nullptr
+Bucket 1143 :nullptr
+Bucket 1144 :nullptr
+Bucket 1145 :[multi: 1] -> nullptr
+Bucket 1146 :nullptr
+Bucket 1147 :nullptr
+Bucket 1148 :[long: 2] -> nullptr
+Bucket 1149 :[representation: 1] -> [nothing: 1] -> nullptr
+Bucket 1150 :nullptr
+Bucket 1151 :[serve: 1] -> nullptr
+Bucket 1152 :[emerges: 1] -> nullptr
+Bucket 1153 :[especially: 1] -> nullptr
+Bucket 1154 :nullptr
+Bucket 1155 :[dragon: 16] -> [looking: 4] -> nullptr
+Bucket 1156 :nullptr
+Bucket 1157 :[mr: 1] -> nullptr
+Bucket 1158 :[accounts: 1] -> nullptr
+Bucket 1159 :nullptr
+Bucket 1160 :nullptr
+Bucket 1161 :[expect: 1] -> nullptr
+Bucket 1162 :nullptr
+Bucket 1163 :[run: 1] -> nullptr
+Bucket 1164 :nullptr
+Bucket 1165 :[amazing: 1] -> nullptr
+Bucket 1166 :[potential: 7] -> nullptr
+Bucket 1167 :nullptr
+-------------------------------------------
+
+
+--- Reporte de Frecuencia de Palabras ---
+'considered': 1
+'among': 2
+'activities': 1
+'emarketer': 1
+'substantial': 1
+'monday': 1
+'application': 1
+'analysts': 1
+'news': 1
+'within': 3
+'ltd': 1
+'economy': 1
+'cnnest': 7
+'consulting': 1
+'chinese': 5
+'line': 1
+'just': 1
+'usage': 2
+'form': 2
+'seek': 1
+'pk': 1
+'time': 6
+'funding': 1
+'superbly': 1
+'destined': 1
+'revenues': 2
+'income': 1
+'affairs': 1
+'turn': 4
+'forth': 1
+'spread': 1
+'e': 1
+'results': 5
+'g': 1
+'j': 1
+'great': 1
+'account': 1
+'s': 11
+'t': 1
+'partnership': 3
+'u': 3
+'release': 3
+'expensive': 1
+'involve': 1
+'industry': 7
+'support': 1
+'business': 8
+'rd': 1
+'forecasted': 1
+'agreement': 3
+'can': 1
+'happens': 2
+'cap': 1
+'gains': 1
+'relating': 2
+'predicted': 1
+'field': 1
+'conduit': 1
+'rather': 1
+'selling': 1
+'resources': 1
+'growth': 4
+'available': 1
+'financial': 2
+'involving': 1
+'operating': 2
+'excellent': 2
+'conditions': 2
+'thats': 1
+'included': 1
+'getting': 1
+'directors': 1
+'www': 2
+'please': 1
+'uncertainties': 3
+'partnerships': 1
+'generated': 1
+'developing': 2
+'indicate': 1
+'research': 3
+'stage': 1
+'annual': 1
+'buzz': 2
+'others': 1
+'plan': 1
+'going': 1
+'forecast': 2
+'company': 17
+'us': 4
+'money': 1
+'dissemination': 1
+'profit': 1
+'since': 1
+'system': 3
+'efficient': 1
+'holding': 1
+'announced': 1
+'signed': 1
+'drgv': 11
+'provide': 4
+'likely': 1
+'innovative': 2
+'http': 2
+'announces': 1
+'everyone': 1
+'dollar': 1
+'largest': 2
+'sell': 1
+'global': 2
+'leading': 3
+'predict': 2
+'fastest': 1
+'marketplace': 1
+'expressions': 1
+'shall': 1
+'differ': 2
+'contained': 2
+'joint': 10
+'position': 2
+'imply': 1
+'industries': 3
+'net': 1
+'securities': 2
+'new': 3
+'formation': 1
+'percent': 2
+'market': 4
+'messages': 1
+'buffett': 3
+'chance': 1
+'says': 1
+'popularity': 1
+'words': 2
+'sizzling': 1
+'develop': 1
+'flanigan': 1
+'mobile': 7
+'matthew': 1
+'one': 1
+'markets': 2
+'otcpk': 1
+'anticipate': 1
+'telecommunication': 1
+'investing': 1
+'profile': 1
+'warranty': 1
+'acquisition': 1
+'meaning': 1
+'american': 1
+'coming': 1
+'months': 1
+'may': 5
+'restrictions': 1
+'capital': 2
+'traffic': 1
+'featured': 1
+'cause': 1
+'professionals': 1
+'point': 1
+'strike': 1
+'forward': 4
+'alter': 1
+'regulations': 1
+'investors': 7
+'alert': 2
+'gets': 1
+'subsidiary': 1
+'set': 1
+'access': 2
+'use': 2
+'strong': 1
+'estimate': 1
+'transportation': 1
+'share': 5
+'competition': 1
+'change': 2
+'unicom': 1
+'country': 1
+'addition': 2
+'officers': 1
+'period': 1
+'received': 2
+'trucking': 2
+'competitors': 1
+'info': 1
+'president': 2
+'investment': 7
+'penny': 1
+'read': 1
+'offering': 1
+'real': 1
+'gone': 1
+'micro': 1
+'economic': 1
+'message': 1
+'lauderdale': 1
+'notice': 1
+'ministry': 1
+'ownership': 2
+'equity': 1
+'additional': 2
+'portfolio': 1
+'similar': 1
+'intend': 1
+'upside': 1
+'messaging': 1
+'marketing': 1
+'include': 2
+'current': 2
+'intent': 1
+'otc': 1
+'com': 1
+'internet': 4
+'commercial': 1
+'big': 1
+'incubator': 1
+'europe': 1
+'tech': 5
+'associated': 1
+'recently': 2
+'successful': 1
+'refinement': 1
+'world': 3
+'according': 1
+'applications': 9
+'achievements': 1
+'particular': 1
+'general': 2
+'player': 1
+'state': 1
+'everything': 1
+'management': 1
+'invaluable': 1
+'essentially': 1
+'acquired': 1
+'chances': 1
+'now': 1
+'development': 4
+'visit': 1
+'technology': 6
+'acquires': 1
+'dedicated': 1
+'ventures': 2
+'will': 14
+'reported': 1
+'must': 1
+'asia': 1
+'cost': 1
+'date': 2
+'critical': 1
+'foreign': 1
+'advertisement': 1
+'broker': 1
+'range': 1
+'competitive': 1
+'affiliates': 1
+'far': 1
+'price': 1
+'solution': 1
+'solutions': 4
+'excited': 1
+'anywhere': 1
+'solicitation': 1
+'stock': 5
+'telecommunications': 2
+'public': 1
+'sms': 3
+'companies': 9
+'hot': 2
+'commented': 1
+'history': 1
+'knows': 2
+'cheng': 1
+'force': 1
+'enormous': 2
+'federal': 1
+'breakout': 1
+'growing': 3
+'including': 3
+'warren': 2
+'nearly': 1
+'generate': 1
+'users': 1
+'primezone': 1
+'landscape': 1
+'services': 2
+'targeting': 1
+'venture': 17
+'building': 1
+'today': 2
+'solely': 1
+'stated': 1
+'based': 1
+'statements': 7
+'third': 2
+'independent': 1
+'actual': 2
+'fee': 2
+'established': 1
+'poised': 1
+'reputation': 1
+'two': 1
+'move': 1
+'made': 1
+'huge': 3
+'functions': 2
+'doubt': 1
+'revenue': 2
+'performance': 3
+'laws': 1
+'logistics': 7
+'days': 1
+'investor': 2
+'ability': 1
+'bottom': 1
+'advisor': 1
+'explodes': 1
+'placing': 1
+'runyuan': 6
+'responsible': 1
+'telecom': 2
+'worth': 1
+'xintong': 1
+'providers': 1
+'press': 3
+'materially': 2
+'constitute': 2
+'merger': 1
+'domestic': 1
+'rely': 1
+'dragonventure': 1
+'signs': 1
+'phone': 2
+'invests': 1
+'another': 3
+'future': 3
+'asian': 1
+'contain': 1
+'hidy': 1
+'tremendous': 1
+'focus': 2
+'compensation': 1
+'manager': 1
+'et': 1
+'ste': 1
+'trade': 1
+'small': 1
+'limitation': 1
+'rich': 1
+'chunk': 1
+'safe': 1
+'guoding': 1
+'registered': 1
+'cellular': 1
+'operations': 1
+'ft': 1
+'gain': 1
+'opinion': 1
+'vice': 1
+'blast': 1
+'focusing': 1
+'guarantees': 1
+'winner': 1
+'emerging': 1
+'target': 1
+'accessed': 1
+'believe': 3
+'seeking': 1
+'presence': 1
+'high': 6
+'changes': 1
+'buy': 2
+'mail': 1
+'advertisers': 1
+'subject': 4
+'planning': 1
+'ready': 1
+'freight': 1
+'project': 1
+'limited': 5
+'harbor': 1
+'starting': 1
+'risks': 3
+'niche': 1
+'party': 1
+'july': 2
+'said': 2
+'shanghai': 6
+'fla': 1
+'indication': 1
+'view': 1
+'specializes': 1
+'informed': 1
+'establish': 1
+'usually': 1
+'statement': 2
+'strategies': 1
+'wireless': 2
+'forms': 1
+'herein': 1
+'phenomenon': 1
+'china': 24
+'appreciation': 1
+'subsidiaries': 1
+'term': 2
+'return': 1
+'certain': 1
+'mean': 1
+'dealer': 1
+'per': 2
+'reports': 1
+'technological': 1
+'without': 2
+'mentioned': 1
+'poured': 1
+'short': 3
+'stocks': 3
+'street': 2
+'won': 1
+'smart': 1
+'profiles': 1
+'million': 3
+'ll': 1
+'trading': 1
+'valuation': 1
+'grow': 1
+'factual': 1
+'report': 4
+'like': 2
+'iron': 1
+'exceptional': 1
+'information': 7
+'western': 2
+'opportunity': 3
+'multi': 1
+'long': 2
+'representation': 1
+'nothing': 1
+'serve': 1
+'emerges': 1
+'especially': 1
+'dragon': 16
+'looking': 4
+'mr': 1
+'accounts': 1
+'expect': 1
+'run': 1
+'amazing': 1
+'potential': 7
+------------------------------------------
+Total de palabras unicas encontradas: 449
+------------------------------------------
+

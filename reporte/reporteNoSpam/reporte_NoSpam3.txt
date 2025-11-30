@@ -1,0 +1,169 @@
+Se cargaron 174 stop words desde 'input/stop_words_en.txt'. 
+
+Procesando archivo 'input/NoSpam/NoSpam3.txt'... 
+
+Verificando que el factor de carga sea menor a 0.75
+
+ Si no es menor, duplicamos la capacidad de la tabla hasta que sea menor
+Lectura de archivo completada.
+
+----------------------------------
+El factor de carga final es: (0.684932) < (0.75)
+----------------------------------
+
+--- Reporte Top 20 Palabras Mas Frecuentes ---
+1. 'printer': 4 veces
+2. 'color': 4 veces
+3. 'mahal': 3 veces
+4. 'colored': 3 veces
+5. 'first': 3 veces
+6. 'taj': 3 veces
+7. 'page': 3 veces
+8. 'something': 2 veces
+9. 'rest': 2 veces
+10. 'use': 2 veces
+11. 'cartridges': 1 veces
+12. 'wagon': 1 veces
+13. 'pages': 1 veces
+14. 'expensive': 1 veces
+15. 'th': 1 veces
+16. 'long': 1 veces
+17. 'appreciated': 1 veces
+18. 'please': 1 veces
+19. 'hello': 1 veces
+20. 'just': 1 veces
+--------------------------------------------------
+
+
+--- Estructura Interna de la Tabla Hash ---
+Bucket 0 :[research: 1] -> [applies: 1] -> nullptr
+Bucket 1 :[will: 1] -> nullptr
+Bucket 2 :[thanks: 1] -> nullptr
+Bucket 3 :nullptr
+Bucket 4 :nullptr
+Bucket 5 :nullptr
+Bucket 6 :[mahal: 3] -> nullptr
+Bucket 7 :[presentation: 1] -> [least: 1] -> nullptr
+Bucket 8 :nullptr
+Bucket 9 :nullptr
+Bucket 10 :nullptr
+Bucket 11 :nullptr
+Bucket 12 :[cost: 1] -> nullptr
+Bucket 13 :nullptr
+Bucket 14 :nullptr
+Bucket 15 :[maybe: 1] -> nullptr
+Bucket 16 :[shirley: 1] -> [etc: 1] -> nullptr
+Bucket 17 :nullptr
+Bucket 18 :[ask: 1] -> nullptr
+Bucket 19 :nullptr
+Bucket 20 :[bandit: 1] -> [times: 1] -> [several: 1] -> nullptr
+Bucket 21 :nullptr
+Bucket 22 :nullptr
+Bucket 23 :nullptr
+Bucket 24 :nullptr
+Bucket 25 :[picked: 1] -> [vince: 1] -> nullptr
+Bucket 26 :nullptr
+Bucket 27 :nullptr
+Bucket 28 :[color: 4] -> nullptr
+Bucket 29 :nullptr
+Bucket 30 :nullptr
+Bucket 31 :[print: 1] -> nullptr
+Bucket 32 :[greatly: 1] -> [first: 3] -> nullptr
+Bucket 33 :[use: 2] -> nullptr
+Bucket 34 :nullptr
+Bucket 35 :nullptr
+Bucket 36 :nullptr
+Bucket 37 :[floor: 1] -> nullptr
+Bucket 38 :nullptr
+Bucket 39 :[subject: 1] -> nullptr
+Bucket 40 :[presentations: 1] -> [printer: 4] -> nullptr
+Bucket 41 :nullptr
+Bucket 42 :[something: 2] -> [group: 1] -> nullptr
+Bucket 43 :nullptr
+Bucket 44 :[newsletters: 1] -> nullptr
+Bucket 45 :[wagon: 1] -> nullptr
+Bucket 46 :[pages: 1] -> nullptr
+Bucket 47 :nullptr
+Bucket 48 :nullptr
+Bucket 49 :nullptr
+Bucket 50 :[expensive: 1] -> [th: 1] -> nullptr
+Bucket 51 :nullptr
+Bucket 52 :[taj: 3] -> nullptr
+Bucket 53 :[long: 1] -> nullptr
+Bucket 54 :nullptr
+Bucket 55 :nullptr
+Bucket 56 :[appreciated: 1] -> [please: 1] -> [cartridges: 1] -> nullptr
+Bucket 57 :nullptr
+Bucket 58 :nullptr
+Bucket 59 :[page: 3] -> nullptr
+Bucket 60 :[just: 1] -> [effective: 1] -> nullptr
+Bucket 61 :nullptr
+Bucket 62 :nullptr
+Bucket 63 :[memo: 1] -> [colored: 3] -> nullptr
+Bucket 64 :[everyone: 1] -> nullptr
+Bucket 65 :nullptr
+Bucket 66 :nullptr
+Bucket 67 :[require: 1] -> nullptr
+Bucket 68 :nullptr
+Bucket 69 :[requested: 1] -> nullptr
+Bucket 70 :[rest: 2] -> [copy: 1] -> nullptr
+Bucket 71 :[help: 1] -> [hello: 1] -> nullptr
+Bucket 72 :nullptr
+-------------------------------------------
+
+
+--- Reporte de Frecuencia de Palabras ---
+'research': 1
+'applies': 1
+'will': 1
+'thanks': 1
+'mahal': 3
+'presentation': 1
+'least': 1
+'cost': 1
+'maybe': 1
+'shirley': 1
+'etc': 1
+'ask': 1
+'bandit': 1
+'times': 1
+'several': 1
+'picked': 1
+'vince': 1
+'color': 4
+'print': 1
+'greatly': 1
+'first': 3
+'use': 2
+'floor': 1
+'subject': 1
+'presentations': 1
+'printer': 4
+'something': 2
+'group': 1
+'newsletters': 1
+'wagon': 1
+'pages': 1
+'expensive': 1
+'th': 1
+'taj': 3
+'long': 1
+'appreciated': 1
+'please': 1
+'cartridges': 1
+'page': 3
+'just': 1
+'effective': 1
+'memo': 1
+'colored': 3
+'everyone': 1
+'require': 1
+'requested': 1
+'rest': 2
+'copy': 1
+'help': 1
+'hello': 1
+------------------------------------------
+Total de palabras unicas encontradas: 50
+------------------------------------------
+

@@ -1,0 +1,541 @@
+Se cargaron 174 stop words desde 'input/stop_words_en.txt'. 
+
+Procesando archivo 'input/Spam/Spam4.txt'... 
+
+Verificando que el factor de carga sea menor a 0.75
+
+ Si no es menor, duplicamos la capacidad de la tabla hasta que sea menor
+
+--- ¡REHASHING ACTIVADO! --- (Carga: 0.753425)
+--- REHASHING COMPLETADO --- (Nueva Capacidad: 146)
+
+--- ¡REHASHING ACTIVADO! --- (Carga: 0.753425)
+--- REHASHING COMPLETADO --- (Nueva Capacidad: 292)
+Lectura de archivo completada.
+
+----------------------------------
+El factor de carga final es: (0.674658) < (0.75)
+----------------------------------
+
+--- Reporte Top 20 Palabras Mas Frecuentes ---
+1. 'insurance': 5 veces
+2. 'market': 4 veces
+3. 'planning': 4 veces
+4. 't': 3 veces
+5. 'comprehensive': 3 veces
+6. 'professional': 3 veces
+7. 'financial': 3 veces
+8. 's': 3 veces
+9. 'sales': 3 veces
+10. 'provides': 3 veces
+11. 'analysis': 3 veces
+12. 'company': 2 veces
+13. 'can': 2 veces
+14. 'profiles': 2 veces
+15. 'program': 2 veces
+16. 'mailing': 2 veces
+17. 'funding': 2 veces
+18. 'will': 2 veces
+19. 'tool': 2 veces
+20. 'mid': 2 veces
+--------------------------------------------------
+
+
+--- Estructura Interna de la Tabla Hash ---
+Bucket 0 :nullptr
+Bucket 1 :[corporate: 1] -> [either: 1] -> nullptr
+Bucket 2 :[situation: 1] -> nullptr
+Bucket 3 :[lend: 1] -> nullptr
+Bucket 4 :[removed: 1] -> nullptr
+Bucket 5 :nullptr
+Bucket 6 :nullptr
+Bucket 7 :[offset: 1] -> nullptr
+Bucket 8 :nullptr
+Bucket 9 :nullptr
+Bucket 10 :[anybody: 1] -> nullptr
+Bucket 11 :[deferred: 1] -> nullptr
+Bucket 12 :nullptr
+Bucket 13 :[zip: 1] -> nullptr
+Bucket 14 :[instead: 1] -> nullptr
+Bucket 15 :[expenses: 1] -> [large: 1] -> nullptr
+Bucket 16 :nullptr
+Bucket 17 :nullptr
+Bucket 18 :[phone: 1] -> [successful: 1] -> nullptr
+Bucket 19 :nullptr
+Bucket 20 :[investments: 1] -> nullptr
+Bucket 21 :[service: 1] -> nullptr
+Bucket 22 :nullptr
+Bucket 23 :nullptr
+Bucket 24 :nullptr
+Bucket 25 :nullptr
+Bucket 26 :[well: 2] -> nullptr
+Bucket 27 :[within: 2] -> nullptr
+Bucket 28 :[focus: 1] -> nullptr
+Bucket 29 :nullptr
+Bucket 30 :[need: 1] -> [specific: 1] -> [compensation: 1] -> nullptr
+Bucket 31 :nullptr
+Bucket 32 :nullptr
+Bucket 33 :nullptr
+Bucket 34 :nullptr
+Bucket 35 :[premium: 1] -> nullptr
+Bucket 36 :nullptr
+Bucket 37 :[consortium: 1] -> nullptr
+Bucket 38 :nullptr
+Bucket 39 :nullptr
+Bucket 40 :[earn: 1] -> nullptr
+Bucket 41 :[state: 1] -> [net: 1] -> nullptr
+Bucket 42 :[sophisticated: 1] -> nullptr
+Bucket 43 :nullptr
+Bucket 44 :nullptr
+Bucket 45 :nullptr
+Bucket 46 :[communication: 1] -> nullptr
+Bucket 47 :[mailing: 2] -> nullptr
+Bucket 48 :[want: 1] -> [case: 1] -> nullptr
+Bucket 49 :nullptr
+Bucket 50 :nullptr
+Bucket 51 :nullptr
+Bucket 52 :nullptr
+Bucket 53 :[producers: 1] -> nullptr
+Bucket 54 :nullptr
+Bucket 55 :[purchased: 1] -> nullptr
+Bucket 56 :[allocation: 1] -> [market: 4] -> nullptr
+Bucket 57 :nullptr
+Bucket 58 :nullptr
+Bucket 59 :nullptr
+Bucket 60 :nullptr
+Bucket 61 :nullptr
+Bucket 62 :nullptr
+Bucket 63 :[left: 1] -> nullptr
+Bucket 64 :[mid: 2] -> nullptr
+Bucket 65 :nullptr
+Bucket 66 :nullptr
+Bucket 67 :[loans: 1] -> nullptr
+Bucket 68 :[sent: 1] -> [form: 1] -> nullptr
+Bucket 69 :nullptr
+Bucket 70 :nullptr
+Bucket 71 :nullptr
+Bucket 72 :[tool: 2] -> nullptr
+Bucket 73 :nullptr
+Bucket 74 :[will: 2] -> nullptr
+Bucket 75 :nullptr
+Bucket 76 :nullptr
+Bucket 77 :[funding: 2] -> nullptr
+Bucket 78 :nullptr
+Bucket 79 :[don: 1] -> nullptr
+Bucket 80 :nullptr
+Bucket 81 :nullptr
+Bucket 82 :nullptr
+Bucket 83 :nullptr
+Bucket 84 :nullptr
+Bucket 85 :nullptr
+Bucket 86 :nullptr
+Bucket 87 :nullptr
+Bucket 88 :[believe: 1] -> [goals: 1] -> nullptr
+Bucket 89 :nullptr
+Bucket 90 :nullptr
+Bucket 91 :nullptr
+Bucket 92 :[go: 1] -> [pay: 1] -> nullptr
+Bucket 93 :nullptr
+Bucket 94 :[yen: 1] -> nullptr
+Bucket 95 :[optout: 1] -> [offers: 1] -> nullptr
+Bucket 96 :[comprehensive: 3] -> [life: 1] -> nullptr
+Bucket 97 :[legal: 1] -> [broker: 1] -> nullptr
+Bucket 98 :nullptr
+Bucket 99 :[existing: 1] -> nullptr
+Bucket 100 :[sales: 3] -> nullptr
+Bucket 101 :[e: 1] -> [used: 1] -> [number: 2] -> nullptr
+Bucket 102 :[high: 1] -> [f: 2] -> nullptr
+Bucket 103 :[become: 1] -> [g: 2] -> nullptr
+Bucket 104 :nullptr
+Bucket 105 :nullptr
+Bucket 106 :nullptr
+Bucket 107 :[receive: 2] -> [mail: 1] -> nullptr
+Bucket 108 :[pilot: 1] -> [willing: 1] -> nullptr
+Bucket 109 :nullptr
+Bucket 110 :[provides: 3] -> [businesses: 1] -> nullptr
+Bucket 111 :nullptr
+Bucket 112 :[subject: 1] -> nullptr
+Bucket 113 :[disregard: 1] -> [planning: 4] -> nullptr
+Bucket 114 :[solutions: 1] -> [simple: 1] -> nullptr
+Bucket 115 :[s: 3] -> nullptr
+Bucket 116 :[carrier: 1] -> [prospect: 1] -> [t: 3] -> nullptr
+Bucket 117 :[u: 1] -> nullptr
+Bucket 118 :nullptr
+Bucket 119 :nullptr
+Bucket 120 :nullptr
+Bucket 121 :nullptr
+Bucket 122 :nullptr
+Bucket 123 :[qualification: 1] -> nullptr
+Bucket 124 :nullptr
+Bucket 125 :[employees: 1] -> nullptr
+Bucket 126 :nullptr
+Bucket 127 :[support: 1] -> nullptr
+Bucket 128 :[asset: 1] -> [business: 1] -> nullptr
+Bucket 129 :nullptr
+Bucket 130 :nullptr
+Bucket 131 :[companies: 1] -> [software: 1] -> nullptr
+Bucket 132 :nullptr
+Bucket 133 :nullptr
+Bucket 134 :[design: 1] -> nullptr
+Bucket 135 :nullptr
+Bucket 136 :nullptr
+Bucket 137 :nullptr
+Bucket 138 :nullptr
+Bucket 139 :[tax: 1] -> nullptr
+Bucket 140 :nullptr
+Bucket 141 :nullptr
+Bucket 142 :[primary: 1] -> nullptr
+Bucket 143 :[format: 1] -> nullptr
+Bucket 144 :[can: 2] -> nullptr
+Bucket 145 :[ideal: 1] -> [compensated: 1] -> nullptr
+Bucket 146 :nullptr
+Bucket 147 :[analyzes: 1] -> nullptr
+Bucket 148 :nullptr
+Bucket 149 :[coli: 1] -> nullptr
+Bucket 150 :[currently: 1] -> [objectives: 1] -> [turnkey: 1] -> nullptr
+Bucket 151 :nullptr
+Bucket 152 :[professionals: 1] -> nullptr
+Bucket 153 :[least: 1] -> nullptr
+Bucket 154 :[insuranceiq: 1] -> nullptr
+Bucket 155 :nullptr
+Bucket 156 :[enabling: 1] -> nullptr
+Bucket 157 :[including: 1] -> nullptr
+Bucket 158 :[insurance: 5] -> nullptr
+Bucket 159 :[dollars: 1] -> [compared: 1] -> [see: 1] -> nullptr
+Bucket 160 :nullptr
+Bucket 161 :[mechanism: 1] -> nullptr
+Bucket 162 :nullptr
+Bucket 163 :nullptr
+Bucket 164 :nullptr
+Bucket 165 :[area: 1] -> nullptr
+Bucket 166 :nullptr
+Bucket 167 :[illustrations: 1] -> [highly: 1] -> nullptr
+Bucket 168 :[loan: 1] -> nullptr
+Bucket 169 :[available: 1] -> [needs: 2] -> [financial: 3] -> nullptr
+Bucket 170 :nullptr
+Bucket 171 :nullptr
+Bucket 172 :[products: 2] -> nullptr
+Bucket 173 :[japanese: 1] -> nullptr
+Bucket 174 :nullptr
+Bucket 175 :nullptr
+Bucket 176 :[access: 1] -> [users: 1] -> nullptr
+Bucket 177 :nullptr
+Bucket 178 :nullptr
+Bucket 179 :nullptr
+Bucket 180 :[excels: 1] -> [implications: 1] -> nullptr
+Bucket 181 :nullptr
+Bucket 182 :[reply: 1] -> nullptr
+Bucket 183 :nullptr
+Bucket 184 :[compelling: 1] -> nullptr
+Bucket 185 :[alternative: 1] -> nullptr
+Bucket 186 :nullptr
+Bucket 187 :[ad: 1] -> nullptr
+Bucket 188 :nullptr
+Bucket 189 :nullptr
+Bucket 190 :nullptr
+Bucket 191 :[liabilities: 1] -> nullptr
+Bucket 192 :[pages: 1] -> nullptr
+Bucket 193 :nullptr
+Bucket 194 :[able: 1] -> [providing: 1] -> nullptr
+Bucket 195 :[city: 1] -> nullptr
+Bucket 196 :[benefits: 1] -> nullptr
+Bucket 197 :nullptr
+Bucket 198 :nullptr
+Bucket 199 :[www: 1] -> [professional: 3] -> nullptr
+Bucket 200 :[personal: 1] -> nullptr
+Bucket 201 :[today: 1] -> nullptr
+Bucket 202 :[please: 2] -> nullptr
+Bucket 203 :[based: 1] -> [includes: 1] -> nullptr
+Bucket 204 :nullptr
+Bucket 205 :[dealer: 1] -> nullptr
+Bucket 206 :nullptr
+Bucket 207 :nullptr
+Bucket 208 :nullptr
+Bucket 209 :nullptr
+Bucket 210 :[modular: 1] -> nullptr
+Bucket 211 :nullptr
+Bucket 212 :[executive: 1] -> nullptr
+Bucket 213 :nullptr
+Bucket 214 :[true: 1] -> nullptr
+Bucket 215 :nullptr
+Bucket 216 :nullptr
+Bucket 217 :[help: 1] -> nullptr
+Bucket 218 :[jefferson: 1] -> nullptr
+Bucket 219 :nullptr
+Bucket 220 :nullptr
+Bucket 221 :nullptr
+Bucket 222 :[list: 1] -> nullptr
+Bucket 223 :[investment: 1] -> nullptr
+Bucket 224 :[established: 1] -> nullptr
+Bucket 225 :nullptr
+Bucket 226 :[presentation: 1] -> nullptr
+Bucket 227 :nullptr
+Bucket 228 :nullptr
+Bucket 229 :nullptr
+Bucket 230 :nullptr
+Bucket 231 :[name: 1] -> nullptr
+Bucket 232 :nullptr
+Bucket 233 :[plan: 2] -> nullptr
+Bucket 234 :[thorough: 1] -> [quickly: 1] -> nullptr
+Bucket 235 :nullptr
+Bucket 236 :nullptr
+Bucket 237 :[company: 2] -> nullptr
+Bucket 238 :[profiles: 2] -> [transaction: 1] -> nullptr
+Bucket 239 :nullptr
+Bucket 240 :[million: 1] -> nullptr
+Bucket 241 :nullptr
+Bucket 242 :[administration: 1] -> nullptr
+Bucket 243 :[message: 1] -> nullptr
+Bucket 244 :[notice: 1] -> nullptr
+Bucket 245 :[contracted: 1] -> nullptr
+Bucket 246 :[interest: 1] -> [allows: 1] -> nullptr
+Bucket 247 :[fill: 1] -> nullptr
+Bucket 248 :nullptr
+Bucket 249 :nullptr
+Bucket 250 :nullptr
+Bucket 251 :nullptr
+Bucket 252 :[supplemental: 1] -> [clients: 1] -> [multiple: 1] -> nullptr
+Bucket 253 :nullptr
+Bucket 254 :[exceptional: 1] -> nullptr
+Bucket 255 :nullptr
+Bucket 256 :[information: 1] -> [due: 1] -> nullptr
+Bucket 257 :nullptr
+Bucket 258 :nullptr
+Bucket 259 :nullptr
+Bucket 260 :[portfolio: 1] -> [analysis: 3] -> nullptr
+Bucket 261 :nullptr
+Bucket 262 :nullptr
+Bucket 263 :[opportunity: 1] -> [executives: 1] -> nullptr
+Bucket 264 :[uncovering: 1] -> [program: 2] -> nullptr
+Bucket 265 :nullptr
+Bucket 266 :nullptr
+Bucket 267 :nullptr
+Bucket 268 :[gateway: 1] -> nullptr
+Bucket 269 :nullptr
+Bucket 270 :nullptr
+Bucket 271 :[banks: 1] -> nullptr
+Bucket 272 :nullptr
+Bucket 273 :nullptr
+Bucket 274 :[specifically: 1] -> [marketing: 1] -> nullptr
+Bucket 275 :[financing: 1] -> nullptr
+Bucket 276 :[estate: 1] -> nullptr
+Bucket 277 :nullptr
+Bucket 278 :[worth: 1] -> nullptr
+Bucket 279 :nullptr
+Bucket 280 :[http: 1] -> nullptr
+Bucket 281 :nullptr
+Bucket 282 :nullptr
+Bucket 283 :nullptr
+Bucket 284 :[documents: 1] -> nullptr
+Bucket 285 :[com: 1] -> [wealth: 1] -> [internet: 1] -> nullptr
+Bucket 286 :nullptr
+Bucket 287 :[wish: 1] -> [client: 2] -> nullptr
+Bucket 288 :[family: 1] -> nullptr
+Bucket 289 :[defined: 1] -> nullptr
+Bucket 290 :[sell: 1] -> [calculate: 1] -> nullptr
+Bucket 291 :[unliquidated: 1] -> [global: 1] -> nullptr
+-------------------------------------------
+
+
+--- Reporte de Frecuencia de Palabras ---
+'corporate': 1
+'either': 1
+'situation': 1
+'lend': 1
+'removed': 1
+'offset': 1
+'anybody': 1
+'deferred': 1
+'zip': 1
+'instead': 1
+'expenses': 1
+'large': 1
+'phone': 1
+'successful': 1
+'investments': 1
+'service': 1
+'well': 2
+'within': 2
+'focus': 1
+'need': 1
+'specific': 1
+'compensation': 1
+'premium': 1
+'consortium': 1
+'earn': 1
+'state': 1
+'net': 1
+'sophisticated': 1
+'communication': 1
+'mailing': 2
+'want': 1
+'case': 1
+'producers': 1
+'purchased': 1
+'allocation': 1
+'market': 4
+'left': 1
+'mid': 2
+'loans': 1
+'sent': 1
+'form': 1
+'tool': 2
+'will': 2
+'funding': 2
+'don': 1
+'believe': 1
+'goals': 1
+'go': 1
+'pay': 1
+'yen': 1
+'optout': 1
+'offers': 1
+'comprehensive': 3
+'life': 1
+'legal': 1
+'broker': 1
+'existing': 1
+'sales': 3
+'e': 1
+'used': 1
+'number': 2
+'high': 1
+'f': 2
+'become': 1
+'g': 2
+'receive': 2
+'mail': 1
+'pilot': 1
+'willing': 1
+'provides': 3
+'businesses': 1
+'subject': 1
+'disregard': 1
+'planning': 4
+'solutions': 1
+'simple': 1
+'s': 3
+'carrier': 1
+'prospect': 1
+'t': 3
+'u': 1
+'qualification': 1
+'employees': 1
+'support': 1
+'asset': 1
+'business': 1
+'companies': 1
+'software': 1
+'design': 1
+'tax': 1
+'primary': 1
+'format': 1
+'can': 2
+'ideal': 1
+'compensated': 1
+'analyzes': 1
+'coli': 1
+'currently': 1
+'objectives': 1
+'turnkey': 1
+'professionals': 1
+'least': 1
+'insuranceiq': 1
+'enabling': 1
+'including': 1
+'insurance': 5
+'dollars': 1
+'compared': 1
+'see': 1
+'mechanism': 1
+'area': 1
+'illustrations': 1
+'highly': 1
+'loan': 1
+'available': 1
+'needs': 2
+'financial': 3
+'products': 2
+'japanese': 1
+'access': 1
+'users': 1
+'excels': 1
+'implications': 1
+'reply': 1
+'compelling': 1
+'alternative': 1
+'ad': 1
+'liabilities': 1
+'pages': 1
+'able': 1
+'providing': 1
+'city': 1
+'benefits': 1
+'www': 1
+'professional': 3
+'personal': 1
+'today': 1
+'please': 2
+'based': 1
+'includes': 1
+'dealer': 1
+'modular': 1
+'executive': 1
+'true': 1
+'help': 1
+'jefferson': 1
+'list': 1
+'investment': 1
+'established': 1
+'presentation': 1
+'name': 1
+'plan': 2
+'thorough': 1
+'quickly': 1
+'company': 2
+'profiles': 2
+'transaction': 1
+'million': 1
+'administration': 1
+'message': 1
+'notice': 1
+'contracted': 1
+'interest': 1
+'allows': 1
+'fill': 1
+'supplemental': 1
+'clients': 1
+'multiple': 1
+'exceptional': 1
+'information': 1
+'due': 1
+'portfolio': 1
+'analysis': 3
+'opportunity': 1
+'executives': 1
+'uncovering': 1
+'program': 2
+'gateway': 1
+'banks': 1
+'specifically': 1
+'marketing': 1
+'financing': 1
+'estate': 1
+'worth': 1
+'http': 1
+'documents': 1
+'com': 1
+'wealth': 1
+'internet': 1
+'wish': 1
+'client': 2
+'family': 1
+'defined': 1
+'sell': 1
+'calculate': 1
+'unliquidated': 1
+'global': 1
+------------------------------------------
+Total de palabras unicas encontradas: 197
+------------------------------------------
+

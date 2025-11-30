@@ -1,0 +1,251 @@
+Se cargaron 174 stop words desde 'input/stop_words_en.txt'. 
+
+Procesando archivo 'input/Spam/Spam2.txt'... 
+
+Verificando que el factor de carga sea menor a 0.75
+
+ Si no es menor, duplicamos la capacidad de la tabla hasta que sea menor
+
+--- ¡REHASHING ACTIVADO! --- (Carga: 0.753425)
+--- REHASHING COMPLETADO --- (Nueva Capacidad: 146)
+Lectura de archivo completada.
+
+----------------------------------
+El factor de carga final es: (0.383562) < (0.75)
+----------------------------------
+
+--- Reporte Top 20 Palabras Mas Frecuentes ---
+1. 'teeth': 4 veces
+2. 'whitening': 3 veces
+3. 'email': 2 veces
+4. 'will': 2 veces
+5. 'show': 2 veces
+6. 'know': 2 veces
+7. 'learn': 2 veces
+8. 'dentist': 2 veces
+9. 'system': 2 veces
+10. 'costs': 2 veces
+11. 'network': 2 veces
+12. 'click': 2 veces
+13. 'get': 2 veces
+14. 'affiliate': 2 veces
+15. 'back': 2 veces
+16. 'internet': 2 veces
+17. 'local': 1 veces
+18. 'like': 1 veces
+19. 'receive': 1 veces
+20. 'best': 1 veces
+--------------------------------------------------
+
+
+--- Estructura Interna de la Tabla Hash ---
+Bucket 0 :nullptr
+Bucket 1 :nullptr
+Bucket 2 :nullptr
+Bucket 3 :nullptr
+Bucket 4 :nullptr
+Bucket 5 :nullptr
+Bucket 6 :nullptr
+Bucket 7 :nullptr
+Bucket 8 :[considered: 1] -> nullptr
+Bucket 9 :nullptr
+Bucket 10 :nullptr
+Bucket 11 :[including: 1] -> nullptr
+Bucket 12 :nullptr
+Bucket 13 :nullptr
+Bucket 14 :nullptr
+Bucket 15 :[look: 1] -> nullptr
+Bucket 16 :nullptr
+Bucket 17 :[unsubscribe: 1] -> [usually: 1] -> nullptr
+Bucket 18 :nullptr
+Bucket 19 :nullptr
+Bucket 20 :nullptr
+Bucket 21 :nullptr
+Bucket 22 :nullptr
+Bucket 23 :[exact: 1] -> [available: 1] -> nullptr
+Bucket 24 :nullptr
+Bucket 25 :nullptr
+Bucket 26 :[products: 1] -> nullptr
+Bucket 27 :nullptr
+Bucket 28 :nullptr
+Bucket 29 :nullptr
+Bucket 30 :[get: 2] -> [click: 2] -> [network: 2] -> nullptr
+Bucket 31 :nullptr
+Bucket 32 :nullptr
+Bucket 33 :nullptr
+Bucket 34 :nullptr
+Bucket 35 :nullptr
+Bucket 36 :nullptr
+Bucket 37 :nullptr
+Bucket 38 :[promotions: 1] -> nullptr
+Bucket 39 :nullptr
+Bucket 40 :nullptr
+Bucket 41 :nullptr
+Bucket 42 :nullptr
+Bucket 43 :nullptr
+Bucket 44 :nullptr
+Bucket 45 :[white: 1] -> [whiten: 1] -> nullptr
+Bucket 46 :nullptr
+Bucket 47 :nullptr
+Bucket 48 :nullptr
+Bucket 49 :nullptr
+Bucket 50 :nullptr
+Bucket 51 :[whitening: 3] -> nullptr
+Bucket 52 :nullptr
+Bucket 53 :[professional: 1] -> [special: 1] -> nullptr
+Bucket 54 :nullptr
+Bucket 55 :[today: 1] -> nullptr
+Bucket 56 :[market: 1] -> nullptr
+Bucket 57 :nullptr
+Bucket 58 :[teeth: 4] -> nullptr
+Bucket 59 :nullptr
+Bucket 60 :nullptr
+Bucket 61 :nullptr
+Bucket 62 :[now: 1] -> nullptr
+Bucket 63 :nullptr
+Bucket 64 :nullptr
+Bucket 65 :[show: 2] -> nullptr
+Bucket 66 :nullptr
+Bucket 67 :[visit: 1] -> nullptr
+Bucket 68 :nullptr
+Bucket 69 :nullptr
+Bucket 70 :nullptr
+Bucket 71 :nullptr
+Bucket 72 :nullptr
+Bucket 73 :nullptr
+Bucket 74 :[will: 2] -> nullptr
+Bucket 75 :nullptr
+Bucket 76 :nullptr
+Bucket 77 :nullptr
+Bucket 78 :nullptr
+Bucket 79 :nullptr
+Bucket 80 :nullptr
+Bucket 81 :[know: 2] -> nullptr
+Bucket 82 :nullptr
+Bucket 83 :[dentist: 2] -> nullptr
+Bucket 84 :nullptr
+Bucket 85 :[brighten: 1] -> [cost: 1] -> [longer: 1] -> nullptr
+Bucket 86 :nullptr
+Bucket 87 :nullptr
+Bucket 88 :[using: 1] -> nullptr
+Bucket 89 :nullptr
+Bucket 90 :[professionally: 1] -> nullptr
+Bucket 91 :nullptr
+Bucket 92 :nullptr
+Bucket 93 :nullptr
+Bucket 94 :[day: 1] -> [money: 1] -> nullptr
+Bucket 95 :nullptr
+Bucket 96 :[via: 1] -> nullptr
+Bucket 97 :nullptr
+Bucket 98 :nullptr
+Bucket 99 :nullptr
+Bucket 100 :[receiving: 1] -> nullptr
+Bucket 101 :nullptr
+Bucket 102 :[bright: 1] -> nullptr
+Bucket 103 :nullptr
+Bucket 104 :[best: 1] -> nullptr
+Bucket 105 :[like: 1] -> nullptr
+Bucket 106 :nullptr
+Bucket 107 :[receive: 1] -> nullptr
+Bucket 108 :nullptr
+Bucket 109 :[system: 2] -> nullptr
+Bucket 110 :nullptr
+Bucket 111 :nullptr
+Bucket 112 :[subject: 1] -> nullptr
+Bucket 113 :nullptr
+Bucket 114 :nullptr
+Bucket 115 :[s: 1] -> nullptr
+Bucket 116 :[learn: 2] -> [uses: 1] -> nullptr
+Bucket 117 :nullptr
+Bucket 118 :nullptr
+Bucket 119 :[local: 1] -> [comparison: 1] -> nullptr
+Bucket 120 :nullptr
+Bucket 121 :nullptr
+Bucket 122 :[costs: 2] -> [member: 1] -> nullptr
+Bucket 123 :nullptr
+Bucket 124 :[email: 2] -> nullptr
+Bucket 125 :nullptr
+Bucket 126 :[guarantee: 1] -> nullptr
+Bucket 127 :[affiliate: 2] -> nullptr
+Bucket 128 :nullptr
+Bucket 129 :[product: 1] -> nullptr
+Bucket 130 :nullptr
+Bucket 131 :nullptr
+Bucket 132 :nullptr
+Bucket 133 :nullptr
+Bucket 134 :nullptr
+Bucket 135 :[back: 2] -> nullptr
+Bucket 136 :nullptr
+Bucket 137 :nullptr
+Bucket 138 :[fraction: 1] -> nullptr
+Bucket 139 :[internet: 2] -> nullptr
+Bucket 140 :nullptr
+Bucket 141 :[site: 1] -> nullptr
+Bucket 142 :nullptr
+Bucket 143 :nullptr
+Bucket 144 :nullptr
+Bucket 145 :nullptr
+-------------------------------------------
+
+
+--- Reporte de Frecuencia de Palabras ---
+'considered': 1
+'including': 1
+'look': 1
+'unsubscribe': 1
+'usually': 1
+'exact': 1
+'available': 1
+'products': 1
+'get': 2
+'click': 2
+'network': 2
+'promotions': 1
+'white': 1
+'whiten': 1
+'whitening': 3
+'professional': 1
+'special': 1
+'today': 1
+'market': 1
+'teeth': 4
+'now': 1
+'show': 2
+'visit': 1
+'will': 2
+'know': 2
+'dentist': 2
+'brighten': 1
+'cost': 1
+'longer': 1
+'using': 1
+'professionally': 1
+'day': 1
+'money': 1
+'via': 1
+'receiving': 1
+'bright': 1
+'best': 1
+'like': 1
+'receive': 1
+'system': 2
+'subject': 1
+'s': 1
+'learn': 2
+'uses': 1
+'local': 1
+'comparison': 1
+'costs': 2
+'member': 1
+'email': 2
+'guarantee': 1
+'affiliate': 2
+'product': 1
+'back': 2
+'fraction': 1
+'internet': 2
+'site': 1
+------------------------------------------
+Total de palabras unicas encontradas: 56
+------------------------------------------
+

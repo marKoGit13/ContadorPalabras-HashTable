@@ -1,0 +1,456 @@
+Se cargaron 174 stop words desde 'input/stop_words_en.txt'. 
+
+Procesando archivo 'input/NoSpam/NoSpam2.txt'... 
+
+Verificando que el factor de carga sea menor a 0.75
+
+ Si no es menor, duplicamos la capacidad de la tabla hasta que sea menor
+
+--- ¡REHASHING ACTIVADO! --- (Carga: 0.753425)
+--- REHASHING COMPLETADO --- (Nueva Capacidad: 146)
+
+--- ¡REHASHING ACTIVADO! --- (Carga: 0.753425)
+--- REHASHING COMPLETADO --- (Nueva Capacidad: 292)
+Lectura de archivo completada.
+
+----------------------------------
+El factor de carga final es: (0.383562) < (0.75)
+----------------------------------
+
+--- Reporte Top 20 Palabras Mas Frecuentes ---
+1. 'price': 9 veces
+2. 'data': 6 veces
+3. 'weather': 5 veces
+4. 'information': 5 veces
+5. 'please': 5 veces
+6. 'kaminski': 4 veces
+7. 'mulong': 4 veces
+8. 'energy': 3 veces
+9. 'gas': 3 veces
+10. 'electricity': 3 veces
+11. 'natural': 3 veces
+12. 'daily': 3 veces
+13. 'great': 3 veces
+14. 'winter': 3 veces
+15. 'contact': 2 veces
+16. 'megawatts': 2 veces
+17. 'macminn': 2 veces
+18. 'dear': 2 veces
+19. 'can': 2 veces
+20. 'time': 2 veces
+--------------------------------------------------
+
+
+--- Estructura Interna de la Tabla Hash ---
+Bucket 0 :[derivatives: 2] -> nullptr
+Bucket 1 :nullptr
+Bucket 2 :[dr: 2] -> nullptr
+Bucket 3 :[dissertation: 1] -> nullptr
+Bucket 4 :nullptr
+Bucket 5 :nullptr
+Bucket 6 :nullptr
+Bucket 7 :nullptr
+Bucket 8 :[shall: 2] -> [weather: 5] -> nullptr
+Bucket 9 :[winter: 3] -> [hub: 1] -> [working: 1] -> nullptr
+Bucket 10 :nullptr
+Bucket 11 :nullptr
+Bucket 12 :[enron: 2] -> nullptr
+Bucket 13 :nullptr
+Bucket 14 :nullptr
+Bucket 15 :[look: 1] -> [explain: 1] -> nullptr
+Bucket 16 :nullptr
+Bucket 17 :nullptr
+Bucket 18 :nullptr
+Bucket 19 :nullptr
+Bucket 20 :nullptr
+Bucket 21 :nullptr
+Bucket 22 :nullptr
+Bucket 23 :nullptr
+Bucket 24 :nullptr
+Bucket 25 :[vince: 2] -> [daily: 3] -> nullptr
+Bucket 26 :nullptr
+Bucket 27 :nullptr
+Bucket 28 :[approach: 1] -> nullptr
+Bucket 29 :nullptr
+Bucket 30 :[get: 1] -> nullptr
+Bucket 31 :nullptr
+Bucket 32 :nullptr
+Bucket 33 :nullptr
+Bucket 34 :nullptr
+Bucket 35 :[wang: 1] -> [supervision: 1] -> nullptr
+Bucket 36 :nullptr
+Bucket 37 :nullptr
+Bucket 38 :nullptr
+Bucket 39 :nullptr
+Bucket 40 :nullptr
+Bucket 41 :[wrote: 1] -> nullptr
+Bucket 42 :nullptr
+Bucket 43 :[publishers: 2] -> nullptr
+Bucket 44 :[kind: 1] -> nullptr
+Bucket 45 :nullptr
+Bucket 46 :[nationwide: 1] -> nullptr
+Bucket 47 :nullptr
+Bucket 48 :nullptr
+Bucket 49 :[vkamins: 1] -> nullptr
+Bucket 50 :nullptr
+Bucket 51 :nullptr
+Bucket 52 :[send: 1] -> nullptr
+Bucket 53 :nullptr
+Bucket 54 :nullptr
+Bucket 55 :nullptr
+Bucket 56 :[appreciated: 1] -> nullptr
+Bucket 57 :nullptr
+Bucket 58 :nullptr
+Bucket 59 :nullptr
+Bucket 60 :nullptr
+Bucket 61 :nullptr
+Bucket 62 :[now: 1] -> nullptr
+Bucket 63 :[focused: 1] -> nullptr
+Bucket 64 :nullptr
+Bucket 65 :nullptr
+Bucket 66 :[ft: 2] -> nullptr
+Bucket 67 :nullptr
+Bucket 68 :nullptr
+Bucket 69 :nullptr
+Bucket 70 :nullptr
+Bucket 71 :nullptr
+Bucket 72 :[henry: 1] -> nullptr
+Bucket 73 :[distribute: 1] -> nullptr
+Bucket 74 :[will: 2] -> nullptr
+Bucket 75 :[candidate: 1] -> nullptr
+Bucket 76 :[verde: 1] -> nullptr
+Bucket 77 :[time: 2] -> nullptr
+Bucket 78 :nullptr
+Bucket 79 :[cinergy: 1] -> nullptr
+Bucket 80 :[plummet: 1] -> nullptr
+Bucket 81 :nullptr
+Bucket 82 :[data: 6] -> nullptr
+Bucket 83 :nullptr
+Bucket 84 :nullptr
+Bucket 85 :nullptr
+Bucket 86 :nullptr
+Bucket 87 :nullptr
+Bucket 88 :[recommend: 1] -> [using: 1] -> nullptr
+Bucket 89 :nullptr
+Bucket 90 :[ect: 1] -> nullptr
+Bucket 91 :nullptr
+Bucket 92 :nullptr
+Bucket 93 :nullptr
+Bucket 94 :nullptr
+Bucket 95 :[megawatts: 2] -> nullptr
+Bucket 96 :nullptr
+Bucket 97 :nullptr
+Bucket 98 :nullptr
+Bucket 99 :nullptr
+Bucket 100 :nullptr
+Bucket 101 :nullptr
+Bucket 102 :nullptr
+Bucket 103 :[also: 1] -> nullptr
+Bucket 104 :nullptr
+Bucket 105 :nullptr
+Bucket 106 :[j: 1] -> [brockett: 1] -> nullptr
+Bucket 107 :nullptr
+Bucket 108 :nullptr
+Bucket 109 :[great: 3] -> nullptr
+Bucket 110 :nullptr
+Bucket 111 :nullptr
+Bucket 112 :[subject: 2] -> nullptr
+Bucket 113 :[price: 9] -> nullptr
+Bucket 114 :[prices: 1] -> nullptr
+Bucket 115 :nullptr
+Bucket 116 :nullptr
+Bucket 117 :nullptr
+Bucket 118 :nullptr
+Bucket 119 :nullptr
+Bucket 120 :nullptr
+Bucket 121 :nullptr
+Bucket 122 :nullptr
+Bucket 123 :[permission: 2] -> nullptr
+Bucket 124 :[cobb: 1] -> nullptr
+Bucket 125 :nullptr
+Bucket 126 :[last: 1] -> nullptr
+Bucket 127 :nullptr
+Bucket 128 :nullptr
+Bucket 129 :[may: 1] -> nullptr
+Bucket 130 :nullptr
+Bucket 131 :[re: 1] -> nullptr
+Bucket 132 :nullptr
+Bucket 133 :nullptr
+Bucket 134 :nullptr
+Bucket 135 :nullptr
+Bucket 136 :[contact: 2] -> nullptr
+Bucket 137 :nullptr
+Bucket 138 :nullptr
+Bucket 139 :nullptr
+Bucket 140 :nullptr
+Bucket 141 :[asap: 1] -> nullptr
+Bucket 142 :[dear: 2] -> nullptr
+Bucket 143 :nullptr
+Bucket 144 :[can: 2] -> [cold: 1] -> nullptr
+Bucket 145 :nullptr
+Bucket 146 :nullptr
+Bucket 147 :nullptr
+Bucket 148 :[energy: 3] -> nullptr
+Bucket 149 :nullptr
+Bucket 150 :nullptr
+Bucket 151 :[prepare: 1] -> [apr: 1] -> nullptr
+Bucket 152 :nullptr
+Bucket 153 :[credit: 1] -> nullptr
+Bucket 154 :[past: 1] -> nullptr
+Bucket 155 :nullptr
+Bucket 156 :nullptr
+Bucket 157 :[much: 2] -> nullptr
+Bucket 158 :nullptr
+Bucket 159 :nullptr
+Bucket 160 :nullptr
+Bucket 161 :nullptr
+Bucket 162 :[jump: 1] -> nullptr
+Bucket 163 :[let: 1] -> [significant: 1] -> nullptr
+Bucket 164 :nullptr
+Bucket 165 :[definitely: 1] -> nullptr
+Bucket 166 :nullptr
+Bucket 167 :[highly: 1] -> nullptr
+Bucket 168 :nullptr
+Bucket 169 :[available: 1] -> nullptr
+Bucket 170 :nullptr
+Bucket 171 :nullptr
+Bucket 172 :nullptr
+Bucket 173 :nullptr
+Bucket 174 :nullptr
+Bucket 175 :nullptr
+Bucket 176 :[access: 1] -> nullptr
+Bucket 177 :[drs: 1] -> nullptr
+Bucket 178 :nullptr
+Bucket 179 :[use: 1] -> nullptr
+Bucket 180 :nullptr
+Bucket 181 :nullptr
+Bucket 182 :nullptr
+Bucket 183 :nullptr
+Bucket 184 :[conditions: 1] -> nullptr
+Bucket 185 :nullptr
+Bucket 186 :nullptr
+Bucket 187 :nullptr
+Bucket 188 :nullptr
+Bucket 189 :nullptr
+Bucket 190 :nullptr
+Bucket 191 :nullptr
+Bucket 192 :[right: 1] -> nullptr
+Bucket 193 :nullptr
+Bucket 194 :nullptr
+Bucket 195 :nullptr
+Bucket 196 :nullptr
+Bucket 197 :[gas: 3] -> nullptr
+Bucket 198 :[away: 1] -> nullptr
+Bucket 199 :nullptr
+Bucket 200 :nullptr
+Bucket 201 :[kindly: 2] -> nullptr
+Bucket 202 :[please: 5] -> [permision: 1] -> nullptr
+Bucket 203 :nullptr
+Bucket 204 :nullptr
+Bucket 205 :[period: 1] -> nullptr
+Bucket 206 :nullptr
+Bucket 207 :nullptr
+Bucket 208 :nullptr
+Bucket 209 :nullptr
+Bucket 210 :nullptr
+Bucket 211 :[request: 1] -> nullptr
+Bucket 212 :nullptr
+Bucket 213 :nullptr
+Bucket 214 :nullptr
+Bucket 215 :nullptr
+Bucket 216 :[megawatt: 1] -> [offer: 2] -> nullptr
+Bucket 217 :[help: 1] -> nullptr
+Bucket 218 :nullptr
+Bucket 219 :[research: 1] -> [macminn: 2] -> [peak: 1] -> nullptr
+Bucket 220 :nullptr
+Bucket 221 :nullptr
+Bucket 222 :nullptr
+Bucket 223 :nullptr
+Bucket 224 :[palo: 1] -> nullptr
+Bucket 225 :nullptr
+Bucket 226 :nullptr
+Bucket 227 :[know: 1] -> nullptr
+Bucket 228 :nullptr
+Bucket 229 :nullptr
+Bucket 230 :nullptr
+Bucket 231 :nullptr
+Bucket 232 :nullptr
+Bucket 233 :nullptr
+Bucket 234 :[real: 1] -> nullptr
+Bucket 235 :[series: 1] -> nullptr
+Bucket 236 :nullptr
+Bucket 237 :[electricity: 3] -> nullptr
+Bucket 238 :nullptr
+Bucket 239 :[academic: 1] -> nullptr
+Bucket 240 :[day: 2] -> nullptr
+Bucket 241 :nullptr
+Bucket 242 :[patrick: 1] -> nullptr
+Bucket 243 :[richard: 2] -> nullptr
+Bucket 244 :nullptr
+Bucket 245 :nullptr
+Bucket 246 :nullptr
+Bucket 247 :nullptr
+Bucket 248 :[cc: 1] -> nullptr
+Bucket 249 :nullptr
+Bucket 250 :nullptr
+Bucket 251 :nullptr
+Bucket 252 :[assistance: 1] -> nullptr
+Bucket 253 :[kaminski: 4] -> nullptr
+Bucket 254 :nullptr
+Bucket 255 :nullptr
+Bucket 256 :[information: 5] -> nullptr
+Bucket 257 :nullptr
+Bucket 258 :nullptr
+Bucket 259 :nullptr
+Bucket 260 :[mon: 1] -> [produce: 1] -> nullptr
+Bucket 261 :nullptr
+Bucket 262 :nullptr
+Bucket 263 :nullptr
+Bucket 264 :nullptr
+Bucket 265 :nullptr
+Bucket 266 :[index: 1] -> nullptr
+Bucket 267 :nullptr
+Bucket 268 :nullptr
+Bucket 269 :nullptr
+Bucket 270 :nullptr
+Bucket 271 :nullptr
+Bucket 272 :nullptr
+Bucket 273 :nullptr
+Bucket 274 :nullptr
+Bucket 275 :nullptr
+Bucket 276 :nullptr
+Bucket 277 :nullptr
+Bucket 278 :nullptr
+Bucket 279 :nullptr
+Bucket 280 :nullptr
+Bucket 281 :nullptr
+Bucket 282 :nullptr
+Bucket 283 :nullptr
+Bucket 284 :[allowed: 1] -> nullptr
+Bucket 285 :[com: 2] -> [natural: 3] -> [newsletter: 1] -> nullptr
+Bucket 286 :[thank: 2] -> nullptr
+Bucket 287 :nullptr
+Bucket 288 :[mulong: 4] -> [phd: 1] -> nullptr
+Bucket 289 :nullptr
+Bucket 290 :[conditional: 1] -> nullptr
+Bucket 291 :[produces: 1] -> nullptr
+-------------------------------------------
+
+
+--- Reporte de Frecuencia de Palabras ---
+'derivatives': 2
+'dr': 2
+'dissertation': 1
+'shall': 2
+'weather': 5
+'winter': 3
+'hub': 1
+'working': 1
+'enron': 2
+'look': 1
+'explain': 1
+'vince': 2
+'daily': 3
+'approach': 1
+'get': 1
+'wang': 1
+'supervision': 1
+'wrote': 1
+'publishers': 2
+'kind': 1
+'nationwide': 1
+'vkamins': 1
+'send': 1
+'appreciated': 1
+'now': 1
+'focused': 1
+'ft': 2
+'henry': 1
+'distribute': 1
+'will': 2
+'candidate': 1
+'verde': 1
+'time': 2
+'cinergy': 1
+'plummet': 1
+'data': 6
+'recommend': 1
+'using': 1
+'ect': 1
+'megawatts': 2
+'also': 1
+'j': 1
+'brockett': 1
+'great': 3
+'subject': 2
+'price': 9
+'prices': 1
+'permission': 2
+'cobb': 1
+'last': 1
+'may': 1
+'re': 1
+'contact': 2
+'asap': 1
+'dear': 2
+'can': 2
+'cold': 1
+'energy': 3
+'prepare': 1
+'apr': 1
+'credit': 1
+'past': 1
+'much': 2
+'jump': 1
+'let': 1
+'significant': 1
+'definitely': 1
+'highly': 1
+'available': 1
+'access': 1
+'drs': 1
+'use': 1
+'conditions': 1
+'right': 1
+'gas': 3
+'away': 1
+'kindly': 2
+'please': 5
+'permision': 1
+'period': 1
+'request': 1
+'megawatt': 1
+'offer': 2
+'help': 1
+'research': 1
+'macminn': 2
+'peak': 1
+'palo': 1
+'know': 1
+'real': 1
+'series': 1
+'electricity': 3
+'academic': 1
+'day': 2
+'patrick': 1
+'richard': 2
+'cc': 1
+'assistance': 1
+'kaminski': 4
+'information': 5
+'mon': 1
+'produce': 1
+'index': 1
+'allowed': 1
+'com': 2
+'natural': 3
+'newsletter': 1
+'thank': 2
+'mulong': 4
+'phd': 1
+'conditional': 1
+'produces': 1
+------------------------------------------
+Total de palabras unicas encontradas: 112
+------------------------------------------
+

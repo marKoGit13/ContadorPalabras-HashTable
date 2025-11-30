@@ -1,0 +1,891 @@
+Se cargaron 174 stop words desde 'input/stop_words_en.txt'. 
+
+Procesando archivo 'input/NoSpam/NoSpam4.txt'... 
+
+Verificando que el factor de carga sea menor a 0.75
+
+ Si no es menor, duplicamos la capacidad de la tabla hasta que sea menor
+
+--- ¡REHASHING ACTIVADO! --- (Carga: 0.753425)
+--- REHASHING COMPLETADO --- (Nueva Capacidad: 146)
+
+--- ¡REHASHING ACTIVADO! --- (Carga: 0.753425)
+--- REHASHING COMPLETADO --- (Nueva Capacidad: 292)
+
+--- ¡REHASHING ACTIVADO! --- (Carga: 0.753425)
+--- REHASHING COMPLETADO --- (Nueva Capacidad: 584)
+Lectura de archivo completada.
+
+----------------------------------
+El factor de carga final es: (0.431507) < (0.75)
+----------------------------------
+
+--- Reporte Top 20 Palabras Mas Frecuentes ---
+1. 'chapter': 21 veces
+2. 'energy': 16 veces
+3. 'options': 13 veces
+4. 'can': 8 veces
+5. 'forward': 8 veces
+6. 'well': 8 veces
+7. 'risk': 7 veces
+8. 'prices': 6 veces
+9. 'book': 6 veces
+10. 'model': 5 veces
+11. 'style': 5 veces
+12. 'price': 5 veces
+13. 'derivatives': 5 veces
+14. 'markets': 5 veces
+15. 'overview': 4 veces
+16. 'factor': 4 veces
+17. 'curves': 4 veces
+18. 'models': 4 veces
+19. 'derivative': 4 veces
+20. 'management': 4 veces
+--------------------------------------------------
+
+
+--- Estructura Interna de la Tabla Hash ---
+Bucket 0 :nullptr
+Bucket 1 :[correlations: 1] -> nullptr
+Bucket 2 :nullptr
+Bucket 3 :[depth: 1] -> nullptr
+Bucket 4 :nullptr
+Bucket 5 :[fours: 1] -> nullptr
+Bucket 6 :[chapters: 2] -> nullptr
+Bucket 7 :nullptr
+Bucket 8 :nullptr
+Bucket 9 :nullptr
+Bucket 10 :nullptr
+Bucket 11 :nullptr
+Bucket 12 :[hope: 1] -> nullptr
+Bucket 13 :nullptr
+Bucket 14 :nullptr
+Bucket 15 :[look: 4] -> nullptr
+Bucket 16 :nullptr
+Bucket 17 :nullptr
+Bucket 18 :nullptr
+Bucket 19 :nullptr
+Bucket 20 :nullptr
+Bucket 21 :nullptr
+Bucket 22 :nullptr
+Bucket 23 :nullptr
+Bucket 24 :nullptr
+Bucket 25 :nullptr
+Bucket 26 :[ideally: 1] -> [world: 1] -> nullptr
+Bucket 27 :nullptr
+Bucket 28 :nullptr
+Bucket 29 :nullptr
+Bucket 30 :nullptr
+Bucket 31 :nullptr
+Bucket 32 :[testing: 1] -> [general: 2] -> nullptr
+Bucket 33 :nullptr
+Bucket 34 :nullptr
+Bucket 35 :nullptr
+Bucket 36 :nullptr
+Bucket 37 :nullptr
+Bucket 38 :[propose: 1] -> [empirical: 1] -> nullptr
+Bucket 39 :nullptr
+Bucket 40 :nullptr
+Bucket 41 :nullptr
+Bucket 42 :nullptr
+Bucket 43 :[management: 4] -> nullptr
+Bucket 44 :nullptr
+Bucket 45 :[showing: 1] -> nullptr
+Bucket 46 :nullptr
+Bucket 47 :nullptr
+Bucket 48 :nullptr
+Bucket 49 :nullptr
+Bucket 50 :nullptr
+Bucket 51 :[next: 1] -> nullptr
+Bucket 52 :[extensions: 1] -> nullptr
+Bucket 53 :[chapter: 21] -> [standard: 3] -> nullptr
+Bucket 54 :nullptr
+Bucket 55 :nullptr
+Bucket 56 :[sentences: 1] -> nullptr
+Bucket 57 :nullptr
+Bucket 58 :nullptr
+Bucket 59 :nullptr
+Bucket 60 :[just: 1] -> nullptr
+Bucket 61 :nullptr
+Bucket 62 :nullptr
+Bucket 63 :nullptr
+Bucket 64 :[describing: 1] -> nullptr
+Bucket 65 :[value: 1] -> nullptr
+Bucket 66 :[discussing: 2] -> nullptr
+Bucket 67 :nullptr
+Bucket 68 :[form: 3] -> nullptr
+Bucket 69 :[derived: 1] -> nullptr
+Bucket 70 :nullptr
+Bucket 71 :[factor: 4] -> nullptr
+Bucket 72 :nullptr
+Bucket 73 :nullptr
+Bucket 74 :[models: 4] -> nullptr
+Bucket 75 :nullptr
+Bucket 76 :nullptr
+Bucket 77 :[volatility: 2] -> [time: 1] -> nullptr
+Bucket 78 :[focuses: 1] -> nullptr
+Bucket 79 :nullptr
+Bucket 80 :nullptr
+Bucket 81 :[overview: 4] -> [style: 5] -> nullptr
+Bucket 82 :nullptr
+Bucket 83 :nullptr
+Bucket 84 :[responded: 1] -> nullptr
+Bucket 85 :[lookbacks: 1] -> nullptr
+Bucket 86 :[shows: 1] -> nullptr
+Bucket 87 :nullptr
+Bucket 88 :nullptr
+Bucket 89 :nullptr
+Bucket 90 :nullptr
+Bucket 91 :nullptr
+Bucket 92 :nullptr
+Bucket 93 :nullptr
+Bucket 94 :nullptr
+Bucket 95 :nullptr
+Bucket 96 :nullptr
+Bucket 97 :nullptr
+Bucket 98 :nullptr
+Bucket 99 :nullptr
+Bucket 100 :[week: 1] -> nullptr
+Bucket 101 :[used: 3] -> [monte: 3] -> [range: 1] -> nullptr
+Bucket 102 :[results: 1] -> nullptr
+Bucket 103 :[also: 1] -> [people: 1] -> nullptr
+Bucket 104 :[discussion: 1] -> nullptr
+Bucket 105 :[major: 1] -> nullptr
+Bucket 106 :nullptr
+Bucket 107 :nullptr
+Bucket 108 :[computing: 1] -> nullptr
+Bucket 109 :[m: 3] -> nullptr
+Bucket 110 :[collars: 1] -> nullptr
+Bucket 111 :nullptr
+Bucket 112 :[structures: 2] -> nullptr
+Bucket 113 :[price: 5] -> nullptr
+Bucket 114 :[prices: 6] -> [solutions: 2] -> nullptr
+Bucket 115 :[user: 1] -> nullptr
+Bucket 116 :[uses: 1] -> nullptr
+Bucket 117 :nullptr
+Bucket 118 :nullptr
+Bucket 119 :[seeing: 1] -> nullptr
+Bucket 120 :[observed: 2] -> nullptr
+Bucket 121 :[analysed: 1] -> nullptr
+Bucket 122 :nullptr
+Bucket 123 :nullptr
+Bucket 124 :nullptr
+Bucket 125 :[fundamental: 1] -> nullptr
+Bucket 126 :[realistically: 1] -> nullptr
+Bucket 127 :[curve: 2] -> nullptr
+Bucket 128 :[couple: 1] -> nullptr
+Bucket 129 :[examples: 1] -> nullptr
+Bucket 130 :[sample: 1] -> nullptr
+Bucket 131 :[re: 1] -> [early: 1] -> nullptr
+Bucket 132 :[estimated: 2] -> nullptr
+Bucket 133 :[trees: 1] -> nullptr
+Bucket 134 :nullptr
+Bucket 135 :[problem: 1] -> nullptr
+Bucket 136 :[numerical: 1] -> nullptr
+Bucket 137 :nullptr
+Bucket 138 :nullptr
+Bucket 139 :nullptr
+Bucket 140 :[evaluation: 1] -> nullptr
+Bucket 141 :nullptr
+Bucket 142 :nullptr
+Bucket 143 :nullptr
+Bucket 144 :[can: 8] -> nullptr
+Bucket 145 :nullptr
+Bucket 146 :nullptr
+Bucket 147 :[estimates: 1] -> nullptr
+Bucket 148 :[apart: 1] -> [barriers: 1] -> nullptr
+Bucket 149 :nullptr
+Bucket 150 :nullptr
+Bucket 151 :nullptr
+Bucket 152 :nullptr
+Bucket 153 :[credit: 1] -> nullptr
+Bucket 154 :nullptr
+Bucket 155 :[scholes: 1] -> [meeting: 1] -> nullptr
+Bucket 156 :nullptr
+Bucket 157 :[including: 2] -> nullptr
+Bucket 158 :nullptr
+Bucket 159 :nullptr
+Bucket 160 :nullptr
+Bucket 161 :[finishes: 1] -> nullptr
+Bucket 162 :nullptr
+Bucket 163 :nullptr
+Bucket 164 :nullptr
+Bucket 165 :nullptr
+Bucket 166 :nullptr
+Bucket 167 :[floors: 1] -> nullptr
+Bucket 168 :nullptr
+Bucket 169 :nullptr
+Bucket 170 :nullptr
+Bucket 171 :[masson: 1] -> nullptr
+Bucket 172 :[grant: 2] -> [products: 1] -> nullptr
+Bucket 173 :[jumps: 1] -> [path: 2] -> nullptr
+Bucket 174 :nullptr
+Bucket 175 :nullptr
+Bucket 176 :[concept: 2] -> nullptr
+Bucket 177 :nullptr
+Bucket 178 :nullptr
+Bucket 179 :nullptr
+Bucket 180 :nullptr
+Bucket 181 :nullptr
+Bucket 182 :nullptr
+Bucket 183 :nullptr
+Bucket 184 :[rate: 2] -> nullptr
+Bucket 185 :nullptr
+Bucket 186 :[hedging: 3] -> nullptr
+Bucket 187 :[finish: 1] -> nullptr
+Bucket 188 :nullptr
+Bucket 189 :[underlying: 1] -> [yield: 1] -> nullptr
+Bucket 190 :nullptr
+Bucket 191 :nullptr
+Bucket 192 :[simulated: 1] -> nullptr
+Bucket 193 :nullptr
+Bucket 194 :[able: 1] -> nullptr
+Bucket 195 :nullptr
+Bucket 196 :nullptr
+Bucket 197 :nullptr
+Bucket 198 :nullptr
+Bucket 199 :[convenience: 1] -> nullptr
+Bucket 200 :nullptr
+Bucket 201 :nullptr
+Bucket 202 :[please: 1] -> nullptr
+Bucket 203 :[based: 1] -> nullptr
+Bucket 204 :nullptr
+Bucket 205 :nullptr
+Bucket 206 :nullptr
+Bucket 207 :nullptr
+Bucket 208 :nullptr
+Bucket 209 :nullptr
+Bucket 210 :nullptr
+Bucket 211 :[trinomial: 2] -> [common: 2] -> nullptr
+Bucket 212 :nullptr
+Bucket 213 :nullptr
+Bucket 214 :nullptr
+Bucket 215 :nullptr
+Bucket 216 :nullptr
+Bucket 217 :[methodologies: 1] -> nullptr
+Bucket 218 :nullptr
+Bucket 219 :nullptr
+Bucket 220 :nullptr
+Bucket 221 :nullptr
+Bucket 222 :nullptr
+Bucket 223 :nullptr
+Bucket 224 :[guys: 1] -> nullptr
+Bucket 225 :nullptr
+Bucket 226 :[ladder: 1] -> nullptr
+Bucket 227 :[know: 1] -> nullptr
+Bucket 228 :[two: 1] -> nullptr
+Bucket 229 :nullptr
+Bucket 230 :[capture: 1] -> nullptr
+Bucket 231 :[variables: 1] -> [chris: 1] -> nullptr
+Bucket 232 :[single: 1] -> nullptr
+Bucket 233 :nullptr
+Bucket 234 :nullptr
+Bucket 235 :nullptr
+Bucket 236 :nullptr
+Bucket 237 :nullptr
+Bucket 238 :nullptr
+Bucket 239 :nullptr
+Bucket 240 :[variety: 2] -> [delta: 3] -> nullptr
+Bucket 241 :nullptr
+Bucket 242 :nullptr
+Bucket 243 :[sentence: 1] -> nullptr
+Bucket 244 :nullptr
+Bucket 245 :[principals: 1] -> nullptr
+Bucket 246 :[develops: 1] -> nullptr
+Bucket 247 :nullptr
+Bucket 248 :nullptr
+Bucket 249 :nullptr
+Bucket 250 :[examines: 1] -> nullptr
+Bucket 251 :nullptr
+Bucket 252 :nullptr
+Bucket 253 :[kaminski: 1] -> nullptr
+Bucket 254 :[covariances: 1] -> nullptr
+Bucket 255 :[risk: 7] -> nullptr
+Bucket 256 :nullptr
+Bucket 257 :[favour: 1] -> [efficient: 1] -> nullptr
+Bucket 258 :nullptr
+Bucket 259 :nullptr
+Bucket 260 :nullptr
+Bucket 261 :nullptr
+Bucket 262 :nullptr
+Bucket 263 :nullptr
+Bucket 264 :nullptr
+Bucket 265 :[give: 1] -> nullptr
+Bucket 266 :nullptr
+Bucket 267 :nullptr
+Bucket 268 :nullptr
+Bucket 269 :[option: 1] -> nullptr
+Bucket 270 :nullptr
+Bucket 271 :[carlo: 3] -> [leads: 1] -> nullptr
+Bucket 272 :nullptr
+Bucket 273 :[provide: 1] -> nullptr
+Bucket 274 :nullptr
+Bucket 275 :nullptr
+Bucket 276 :nullptr
+Bucket 277 :[applied: 2] -> nullptr
+Bucket 278 :[options: 13] -> [three: 1] -> nullptr
+Bucket 279 :[process: 1] -> nullptr
+Bucket 280 :nullptr
+Bucket 281 :nullptr
+Bucket 282 :nullptr
+Bucket 283 :nullptr
+Bucket 284 :[swaptions: 1] -> [developed: 3] -> nullptr
+Bucket 285 :nullptr
+Bucket 286 :nullptr
+Bucket 287 :nullptr
+Bucket 288 :nullptr
+Bucket 289 :[defined: 2] -> nullptr
+Bucket 290 :[sell: 1] -> nullptr
+Bucket 291 :[portfolios: 2] -> nullptr
+Bucket 292 :[derivatives: 5] -> [regards: 1] -> nullptr
+Bucket 293 :nullptr
+Bucket 294 :[framework: 1] -> nullptr
+Bucket 295 :[faced: 1] -> nullptr
+Bucket 296 :nullptr
+Bucket 297 :[opportunities: 1] -> nullptr
+Bucket 298 :[straight: 1] -> nullptr
+Bucket 299 :nullptr
+Bucket 300 :nullptr
+Bucket 301 :[average: 1] -> nullptr
+Bucket 302 :[tree: 2] -> nullptr
+Bucket 303 :[var: 2] -> nullptr
+Bucket 304 :[enron: 1] -> nullptr
+Bucket 305 :nullptr
+Bucket 306 :nullptr
+Bucket 307 :nullptr
+Bucket 308 :[etc: 1] -> [investigates: 1] -> nullptr
+Bucket 309 :nullptr
+Bucket 310 :[built: 1] -> nullptr
+Bucket 311 :nullptr
+Bucket 312 :nullptr
+Bucket 313 :nullptr
+Bucket 314 :nullptr
+Bucket 315 :nullptr
+Bucket 316 :[asian: 1] -> nullptr
+Bucket 317 :[vince: 2] -> nullptr
+Bucket 318 :[well: 8] -> [pricing: 4] -> nullptr
+Bucket 319 :[simulation: 4] -> nullptr
+Bucket 320 :[approach: 1] -> nullptr
+Bucket 321 :nullptr
+Bucket 322 :nullptr
+Bucket 323 :nullptr
+Bucket 324 :nullptr
+Bucket 325 :nullptr
+Bucket 326 :[valuing: 1] -> nullptr
+Bucket 327 :nullptr
+Bucket 328 :nullptr
+Bucket 329 :nullptr
+Bucket 330 :nullptr
+Bucket 331 :nullptr
+Bucket 332 :[trade: 1] -> nullptr
+Bucket 333 :[feedback: 1] -> nullptr
+Bucket 334 :nullptr
+Bucket 335 :nullptr
+Bucket 336 :[new: 1] -> nullptr
+Bucket 337 :[inputs: 1] -> nullptr
+Bucket 338 :nullptr
+Bucket 339 :nullptr
+Bucket 340 :nullptr
+Bucket 341 :[compare: 1] -> nullptr
+Bucket 342 :[containing: 2] -> nullptr
+Bucket 343 :nullptr
+Bucket 344 :[presents: 1] -> nullptr
+Bucket 345 :nullptr
+Bucket 346 :nullptr
+Bucket 347 :nullptr
+Bucket 348 :[closed: 2] -> [market: 2] -> nullptr
+Bucket 349 :nullptr
+Bucket 350 :[positively: 1] -> nullptr
+Bucket 351 :[modelling: 2] -> nullptr
+Bucket 352 :nullptr
+Bucket 353 :nullptr
+Bucket 354 :nullptr
+Bucket 355 :nullptr
+Bucket 356 :nullptr
+Bucket 357 :nullptr
+Bucket 358 :nullptr
+Bucket 359 :nullptr
+Bucket 360 :[discuss: 2] -> nullptr
+Bucket 361 :nullptr
+Bucket 362 :nullptr
+Bucket 363 :nullptr
+Bucket 364 :nullptr
+Bucket 365 :nullptr
+Bucket 366 :nullptr
+Bucket 367 :nullptr
+Bucket 368 :nullptr
+Bucket 369 :nullptr
+Bucket 370 :nullptr
+Bucket 371 :[institutions: 1] -> nullptr
+Bucket 372 :nullptr
+Bucket 373 :[reversion: 1] -> nullptr
+Bucket 374 :nullptr
+Bucket 375 :[key: 2] -> nullptr
+Bucket 376 :nullptr
+Bucket 377 :nullptr
+Bucket 378 :[parameters: 1] -> nullptr
+Bucket 379 :nullptr
+Bucket 380 :[using: 1] -> nullptr
+Bucket 381 :[remainder: 1] -> nullptr
+Bucket 382 :nullptr
+Bucket 383 :nullptr
+Bucket 384 :nullptr
+Bucket 385 :nullptr
+Bucket 386 :[positions: 1] -> nullptr
+Bucket 387 :nullptr
+Bucket 388 :[understanding: 1] -> nullptr
+Bucket 389 :[processes: 2] -> nullptr
+Bucket 390 :nullptr
+Bucket 391 :[markets: 5] -> nullptr
+Bucket 392 :nullptr
+Bucket 393 :[number: 1] -> nullptr
+Bucket 394 :nullptr
+Bucket 395 :nullptr
+Bucket 396 :[best: 1] -> nullptr
+Bucket 397 :nullptr
+Bucket 398 :nullptr
+Bucket 399 :nullptr
+Bucket 400 :nullptr
+Bucket 401 :nullptr
+Bucket 402 :[presented: 1] -> nullptr
+Bucket 403 :[difficulty: 1] -> [wide: 1] -> nullptr
+Bucket 404 :[subject: 1] -> nullptr
+Bucket 405 :nullptr
+Bucket 406 :[although: 1] -> nullptr
+Bucket 407 :[write: 1] -> nullptr
+Bucket 408 :nullptr
+Bucket 409 :[hi: 1] -> nullptr
+Bucket 410 :nullptr
+Bucket 411 :[techniques: 2] -> [storage: 1] -> nullptr
+Bucket 412 :nullptr
+Bucket 413 :nullptr
+Bucket 414 :nullptr
+Bucket 415 :nullptr
+Bucket 416 :[american: 3] -> nullptr
+Bucket 417 :nullptr
+Bucket 418 :nullptr
+Bucket 419 :nullptr
+Bucket 420 :nullptr
+Bucket 421 :nullptr
+Bucket 422 :[measure: 1] -> [order: 1] -> nullptr
+Bucket 423 :nullptr
+Bucket 424 :[capital: 1] -> nullptr
+Bucket 425 :nullptr
+Bucket 426 :[historical: 1] -> nullptr
+Bucket 427 :[finally: 2] -> nullptr
+Bucket 428 :[later: 1] -> nullptr
+Bucket 429 :nullptr
+Bucket 430 :nullptr
+Bucket 431 :nullptr
+Bucket 432 :nullptr
+Bucket 433 :nullptr
+Bucket 434 :nullptr
+Bucket 435 :nullptr
+Bucket 436 :nullptr
+Bucket 437 :nullptr
+Bucket 438 :nullptr
+Bucket 439 :[gamma: 2] -> [derivative: 4] -> nullptr
+Bucket 440 :[energy: 16] -> nullptr
+Bucket 441 :nullptr
+Bucket 442 :nullptr
+Bucket 443 :nullptr
+Bucket 444 :nullptr
+Bucket 445 :nullptr
+Bucket 446 :nullptr
+Bucket 447 :[black: 1] -> nullptr
+Bucket 448 :nullptr
+Bucket 449 :nullptr
+Bucket 450 :[spot: 2] -> nullptr
+Bucket 451 :[see: 1] -> [methodology: 1] -> nullptr
+Bucket 452 :nullptr
+Bucket 453 :[forward: 8] -> nullptr
+Bucket 454 :[jump: 1] -> nullptr
+Bucket 455 :nullptr
+Bucket 456 :[exercise: 1] -> nullptr
+Bucket 457 :nullptr
+Bucket 458 :nullptr
+Bucket 459 :[understood: 1] -> nullptr
+Bucket 460 :nullptr
+Bucket 461 :nullptr
+Bucket 462 :[schemes: 2] -> nullptr
+Bucket 463 :[european: 3] -> nullptr
+Bucket 464 :[underlie: 2] -> nullptr
+Bucket 465 :[less: 1] -> [extremely: 1] -> nullptr
+Bucket 466 :[managing: 1] -> nullptr
+Bucket 467 :[debt: 1] -> nullptr
+Bucket 468 :nullptr
+Bucket 469 :nullptr
+Bucket 470 :nullptr
+Bucket 471 :nullptr
+Bucket 472 :nullptr
+Bucket 473 :nullptr
+Bucket 474 :nullptr
+Bucket 475 :[evolution: 1] -> nullptr
+Bucket 476 :[suited: 1] -> nullptr
+Bucket 477 :nullptr
+Bucket 478 :nullptr
+Bucket 479 :nullptr
+Bucket 480 :nullptr
+Bucket 481 :nullptr
+Bucket 482 :nullptr
+Bucket 483 :nullptr
+Bucket 484 :[introducing: 1] -> nullptr
+Bucket 485 :nullptr
+Bucket 486 :nullptr
+Bucket 487 :nullptr
+Bucket 488 :nullptr
+Bucket 489 :nullptr
+Bucket 490 :nullptr
+Bucket 491 :nullptr
+Bucket 492 :nullptr
+Bucket 493 :[mean: 1] -> nullptr
+Bucket 494 :nullptr
+Bucket 495 :nullptr
+Bucket 496 :nullptr
+Bucket 497 :nullptr
+Bucket 498 :nullptr
+Bucket 499 :[compound: 1] -> nullptr
+Bucket 500 :nullptr
+Bucket 501 :[scheme: 1] -> nullptr
+Bucket 502 :nullptr
+Bucket 503 :[request: 1] -> nullptr
+Bucket 504 :[incorporate: 1] -> nullptr
+Bucket 505 :[stochastic: 2] -> nullptr
+Bucket 506 :nullptr
+Bucket 507 :nullptr
+Bucket 508 :[extensively: 1] -> [rest: 1] -> nullptr
+Bucket 509 :nullptr
+Bucket 510 :nullptr
+Bucket 511 :nullptr
+Bucket 512 :[already: 1] -> nullptr
+Bucket 513 :[thanks: 1] -> [begin: 1] -> nullptr
+Bucket 514 :[gbm: 1] -> [consistent: 1] -> nullptr
+Bucket 515 :nullptr
+Bucket 516 :nullptr
+Bucket 517 :nullptr
+Bucket 518 :nullptr
+Bucket 519 :nullptr
+Bucket 520 :nullptr
+Bucket 521 :nullptr
+Bucket 522 :nullptr
+Bucket 523 :nullptr
+Bucket 524 :nullptr
+Bucket 525 :[needed: 1] -> nullptr
+Bucket 526 :nullptr
+Bucket 527 :nullptr
+Bucket 528 :nullptr
+Bucket 529 :[book: 6] -> nullptr
+Bucket 530 :nullptr
+Bucket 531 :[various: 1] -> nullptr
+Bucket 532 :nullptr
+Bucket 533 :nullptr
+Bucket 534 :nullptr
+Bucket 535 :nullptr
+Bucket 536 :[swaps: 1] -> nullptr
+Bucket 537 :[valuation: 1] -> nullptr
+Bucket 538 :[sending: 1] -> [interest: 1] -> nullptr
+Bucket 539 :nullptr
+Bucket 540 :nullptr
+Bucket 541 :nullptr
+Bucket 542 :[aims: 1] -> nullptr
+Bucket 543 :[discussed: 1] -> nullptr
+Bucket 544 :nullptr
+Bucket 545 :[model: 5] -> nullptr
+Bucket 546 :nullptr
+Bucket 547 :[analyse: 1] -> [volatilities: 2] -> nullptr
+Bucket 548 :[curves: 4] -> nullptr
+Bucket 549 :nullptr
+Bucket 550 :nullptr
+Bucket 551 :nullptr
+Bucket 552 :[portfolio: 1] -> nullptr
+Bucket 553 :[caps: 1] -> nullptr
+Bucket 554 :[exotic: 2] -> nullptr
+Bucket 555 :nullptr
+Bucket 556 :nullptr
+Bucket 557 :nullptr
+Bucket 558 :[discusses: 1] -> nullptr
+Bucket 559 :nullptr
+Bucket 560 :nullptr
+Bucket 561 :[multi: 3] -> nullptr
+Bucket 562 :nullptr
+Bucket 563 :[evaluated: 1] -> nullptr
+Bucket 564 :nullptr
+Bucket 565 :nullptr
+Bucket 566 :nullptr
+Bucket 567 :[written: 2] -> [many: 2] -> nullptr
+Bucket 568 :[include: 1] -> nullptr
+Bucket 569 :nullptr
+Bucket 570 :nullptr
+Bucket 571 :[looking: 1] -> nullptr
+Bucket 572 :nullptr
+Bucket 573 :nullptr
+Bucket 574 :nullptr
+Bucket 575 :nullptr
+Bucket 576 :nullptr
+Bucket 577 :nullptr
+Bucket 578 :nullptr
+Bucket 579 :[assets: 1] -> [client: 1] -> nullptr
+Bucket 580 :[looks: 1] -> nullptr
+Bucket 581 :nullptr
+Bucket 582 :nullptr
+Bucket 583 :[dependent: 2] -> nullptr
+-------------------------------------------
+
+
+--- Reporte de Frecuencia de Palabras ---
+'correlations': 1
+'depth': 1
+'fours': 1
+'chapters': 2
+'hope': 1
+'look': 4
+'ideally': 1
+'world': 1
+'testing': 1
+'general': 2
+'propose': 1
+'empirical': 1
+'management': 4
+'showing': 1
+'next': 1
+'extensions': 1
+'chapter': 21
+'standard': 3
+'sentences': 1
+'just': 1
+'describing': 1
+'value': 1
+'discussing': 2
+'form': 3
+'derived': 1
+'factor': 4
+'models': 4
+'volatility': 2
+'time': 1
+'focuses': 1
+'overview': 4
+'style': 5
+'responded': 1
+'lookbacks': 1
+'shows': 1
+'week': 1
+'used': 3
+'monte': 3
+'range': 1
+'results': 1
+'also': 1
+'people': 1
+'discussion': 1
+'major': 1
+'computing': 1
+'m': 3
+'collars': 1
+'structures': 2
+'price': 5
+'prices': 6
+'solutions': 2
+'user': 1
+'uses': 1
+'seeing': 1
+'observed': 2
+'analysed': 1
+'fundamental': 1
+'realistically': 1
+'curve': 2
+'couple': 1
+'examples': 1
+'sample': 1
+'re': 1
+'early': 1
+'estimated': 2
+'trees': 1
+'problem': 1
+'numerical': 1
+'evaluation': 1
+'can': 8
+'estimates': 1
+'apart': 1
+'barriers': 1
+'credit': 1
+'scholes': 1
+'meeting': 1
+'including': 2
+'finishes': 1
+'floors': 1
+'masson': 1
+'grant': 2
+'products': 1
+'jumps': 1
+'path': 2
+'concept': 2
+'rate': 2
+'hedging': 3
+'finish': 1
+'underlying': 1
+'yield': 1
+'simulated': 1
+'able': 1
+'convenience': 1
+'please': 1
+'based': 1
+'trinomial': 2
+'common': 2
+'methodologies': 1
+'guys': 1
+'ladder': 1
+'know': 1
+'two': 1
+'capture': 1
+'variables': 1
+'chris': 1
+'single': 1
+'variety': 2
+'delta': 3
+'sentence': 1
+'principals': 1
+'develops': 1
+'examines': 1
+'kaminski': 1
+'covariances': 1
+'risk': 7
+'favour': 1
+'efficient': 1
+'give': 1
+'option': 1
+'carlo': 3
+'leads': 1
+'provide': 1
+'applied': 2
+'options': 13
+'three': 1
+'process': 1
+'swaptions': 1
+'developed': 3
+'defined': 2
+'sell': 1
+'portfolios': 2
+'derivatives': 5
+'regards': 1
+'framework': 1
+'faced': 1
+'opportunities': 1
+'straight': 1
+'average': 1
+'tree': 2
+'var': 2
+'enron': 1
+'etc': 1
+'investigates': 1
+'built': 1
+'asian': 1
+'vince': 2
+'well': 8
+'pricing': 4
+'simulation': 4
+'approach': 1
+'valuing': 1
+'trade': 1
+'feedback': 1
+'new': 1
+'inputs': 1
+'compare': 1
+'containing': 2
+'presents': 1
+'closed': 2
+'market': 2
+'positively': 1
+'modelling': 2
+'discuss': 2
+'institutions': 1
+'reversion': 1
+'key': 2
+'parameters': 1
+'using': 1
+'remainder': 1
+'positions': 1
+'understanding': 1
+'processes': 2
+'markets': 5
+'number': 1
+'best': 1
+'presented': 1
+'difficulty': 1
+'wide': 1
+'subject': 1
+'although': 1
+'write': 1
+'hi': 1
+'techniques': 2
+'storage': 1
+'american': 3
+'measure': 1
+'order': 1
+'capital': 1
+'historical': 1
+'finally': 2
+'later': 1
+'gamma': 2
+'derivative': 4
+'energy': 16
+'black': 1
+'spot': 2
+'see': 1
+'methodology': 1
+'forward': 8
+'jump': 1
+'exercise': 1
+'understood': 1
+'schemes': 2
+'european': 3
+'underlie': 2
+'less': 1
+'extremely': 1
+'managing': 1
+'debt': 1
+'evolution': 1
+'suited': 1
+'introducing': 1
+'mean': 1
+'compound': 1
+'scheme': 1
+'request': 1
+'incorporate': 1
+'stochastic': 2
+'extensively': 1
+'rest': 1
+'already': 1
+'thanks': 1
+'begin': 1
+'gbm': 1
+'consistent': 1
+'needed': 1
+'book': 6
+'various': 1
+'swaps': 1
+'valuation': 1
+'sending': 1
+'interest': 1
+'aims': 1
+'discussed': 1
+'model': 5
+'analyse': 1
+'volatilities': 2
+'curves': 4
+'portfolio': 1
+'caps': 1
+'exotic': 2
+'discusses': 1
+'multi': 3
+'evaluated': 1
+'written': 2
+'many': 2
+'include': 1
+'looking': 1
+'assets': 1
+'client': 1
+'looks': 1
+'dependent': 2
+------------------------------------------
+Total de palabras unicas encontradas: 252
+------------------------------------------
+

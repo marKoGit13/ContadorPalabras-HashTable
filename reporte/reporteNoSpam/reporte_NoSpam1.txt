@@ -1,0 +1,480 @@
+Se cargaron 174 stop words desde 'input/stop_words_en.txt'. 
+
+Procesando archivo 'input/NoSpam/NoSpam1.txt'... 
+
+Verificando que el factor de carga sea menor a 0.75
+
+ Si no es menor, duplicamos la capacidad de la tabla hasta que sea menor
+
+--- ¡REHASHING ACTIVADO! --- (Carga: 0.753425)
+--- REHASHING COMPLETADO --- (Nueva Capacidad: 146)
+
+--- ¡REHASHING ACTIVADO! --- (Carga: 0.753425)
+--- REHASHING COMPLETADO --- (Nueva Capacidad: 292)
+Lectura de archivo completada.
+
+----------------------------------
+El factor de carga final es: (0.465753) < (0.75)
+----------------------------------
+
+--- Reporte Top 20 Palabras Mas Frecuentes ---
+1. 'vince': 11 veces
+2. 'houston': 9 veces
+3. 'com': 8 veces
+4. 'soussan': 8 veces
+5. 'visit': 7 veces
+6. 'kaminski': 6 veces
+7. 'enron': 6 veces
+8. 'j': 6 veces
+9. 'subject': 6 veces
+10. 're': 6 veces
+11. 'forward': 5 veces
+12. 'great': 5 veces
+13. 'look': 5 veces
+14. 'faiz': 4 veces
+15. 'meeting': 4 veces
+16. 'can': 4 veces
+17. 'let': 4 veces
+18. 'pm': 4 veces
+19. 'cc': 4 veces
+20. 'hope': 4 veces
+--------------------------------------------------
+
+
+--- Estructura Interna de la Tabla Hash ---
+Bucket 0 :nullptr
+Bucket 1 :[either: 2] -> nullptr
+Bucket 2 :nullptr
+Bucket 3 :nullptr
+Bucket 4 :nullptr
+Bucket 5 :nullptr
+Bucket 6 :[greetings: 1] -> nullptr
+Bucket 7 :nullptr
+Bucket 8 :[confirm: 1] -> [shall: 3] -> [weather: 1] -> nullptr
+Bucket 9 :nullptr
+Bucket 10 :nullptr
+Bucket 11 :[faizs: 1] -> nullptr
+Bucket 12 :[enron: 6] -> [flight: 2] -> [hope: 4] -> nullptr
+Bucket 13 :[walking: 1] -> nullptr
+Bucket 14 :nullptr
+Bucket 15 :[look: 5] -> nullptr
+Bucket 16 :[monday: 1] -> nullptr
+Bucket 17 :[nice: 1] -> nullptr
+Bucket 18 :[phone: 1] -> nullptr
+Bucket 19 :nullptr
+Bucket 20 :[several: 1] -> nullptr
+Bucket 21 :[perfect: 1] -> nullptr
+Bucket 22 :nullptr
+Bucket 23 :nullptr
+Bucket 24 :nullptr
+Bucket 25 :[vince: 11] -> nullptr
+Bucket 26 :[well: 1] -> nullptr
+Bucket 27 :[ny: 1] -> [schedule: 1] -> [within: 1] -> [easily: 1] -> nullptr
+Bucket 28 :nullptr
+Bucket 29 :[choice: 1] -> nullptr
+Bucket 30 :[restaurants: 1] -> [get: 1] -> [town: 2] -> nullptr
+Bucket 31 :nullptr
+Bucket 32 :nullptr
+Bucket 33 :[around: 1] -> nullptr
+Bucket 34 :nullptr
+Bucket 35 :nullptr
+Bucket 36 :nullptr
+Bucket 37 :nullptr
+Bucket 38 :nullptr
+Bucket 39 :[meet: 3] -> nullptr
+Bucket 40 :nullptr
+Bucket 41 :nullptr
+Bucket 42 :nullptr
+Bucket 43 :nullptr
+Bucket 44 :[ok: 1] -> nullptr
+Bucket 45 :nullptr
+Bucket 46 :nullptr
+Bucket 47 :nullptr
+Bucket 48 :nullptr
+Bucket 49 :nullptr
+Bucket 50 :nullptr
+Bucket 51 :[next: 2] -> nullptr
+Bucket 52 :nullptr
+Bucket 53 :nullptr
+Bucket 54 :[suffered: 1] -> nullptr
+Bucket 55 :nullptr
+Bucket 56 :nullptr
+Bucket 57 :[december: 2] -> nullptr
+Bucket 58 :nullptr
+Bucket 59 :nullptr
+Bucket 60 :nullptr
+Bucket 61 :nullptr
+Bucket 62 :nullptr
+Bucket 63 :[lately: 1] -> nullptr
+Bucket 64 :nullptr
+Bucket 65 :nullptr
+Bucket 66 :nullptr
+Bucket 67 :[visit: 7] -> nullptr
+Bucket 68 :[sent: 1] -> nullptr
+Bucket 69 :nullptr
+Bucket 70 :nullptr
+Bucket 71 :[reach: 1] -> nullptr
+Bucket 72 :[faiz: 4] -> nullptr
+Bucket 73 :[seems: 1] -> [staying: 1] -> nullptr
+Bucket 74 :[arrangement: 1] -> [thurs: 2] -> [will: 2] -> nullptr
+Bucket 75 :nullptr
+Bucket 76 :nullptr
+Bucket 77 :[pm: 4] -> [time: 2] -> [original: 1] -> nullptr
+Bucket 78 :[houston: 9] -> nullptr
+Bucket 79 :nullptr
+Bucket 80 :nullptr
+Bucket 81 :nullptr
+Bucket 82 :nullptr
+Bucket 83 :nullptr
+Bucket 84 :nullptr
+Bucket 85 :nullptr
+Bucket 86 :nullptr
+Bucket 87 :nullptr
+Bucket 88 :nullptr
+Bucket 89 :nullptr
+Bucket 90 :[steak: 1] -> nullptr
+Bucket 91 :nullptr
+Bucket 92 :nullptr
+Bucket 93 :nullptr
+Bucket 94 :nullptr
+Bucket 95 :nullptr
+Bucket 96 :nullptr
+Bucket 97 :nullptr
+Bucket 98 :[soussan: 8] -> nullptr
+Bucket 99 :nullptr
+Bucket 100 :[philly: 1] -> [week: 1] -> [check: 1] -> nullptr
+Bucket 101 :nullptr
+Bucket 102 :nullptr
+Bucket 103 :[way: 1] -> nullptr
+Bucket 104 :[best: 2] -> nullptr
+Bucket 105 :nullptr
+Bucket 106 :[j: 6] -> nullptr
+Bucket 107 :nullptr
+Bucket 108 :nullptr
+Bucket 109 :[m: 1] -> [great: 5] -> nullptr
+Bucket 110 :[hopefully: 1] -> nullptr
+Bucket 111 :nullptr
+Bucket 112 :[p: 1] -> [subject: 6] -> nullptr
+Bucket 113 :[assuming: 1] -> nullptr
+Bucket 114 :[aol: 1] -> [although: 1] -> nullptr
+Bucket 115 :[s: 3] -> nullptr
+Bucket 116 :[t: 2] -> nullptr
+Bucket 117 :[preferred: 1] -> nullptr
+Bucket 118 :nullptr
+Bucket 119 :nullptr
+Bucket 120 :[better: 1] -> nullptr
+Bucket 121 :nullptr
+Bucket 122 :nullptr
+Bucket 123 :[thanksgiving: 1] -> nullptr
+Bucket 124 :[morning: 1] -> nullptr
+Bucket 125 :[coming: 2] -> nullptr
+Bucket 126 :[last: 2] -> [usual: 1] -> [texaco: 2] -> nullptr
+Bucket 127 :nullptr
+Bucket 128 :nullptr
+Bucket 129 :nullptr
+Bucket 130 :nullptr
+Bucket 131 :[re: 6] -> nullptr
+Bucket 132 :nullptr
+Bucket 133 :nullptr
+Bucket 134 :nullptr
+Bucket 135 :[pls: 1] -> [problem: 1] -> [back: 1] -> nullptr
+Bucket 136 :[contact: 1] -> nullptr
+Bucket 137 :nullptr
+Bucket 138 :[april: 1] -> nullptr
+Bucket 139 :nullptr
+Bucket 140 :nullptr
+Bucket 141 :nullptr
+Bucket 142 :[dear: 1] -> nullptr
+Bucket 143 :[insights: 1] -> nullptr
+Bucket 144 :[can: 4] -> nullptr
+Bucket 145 :nullptr
+Bucket 146 :nullptr
+Bucket 147 :[galleria: 2] -> nullptr
+Bucket 148 :nullptr
+Bucket 149 :nullptr
+Bucket 150 :nullptr
+Bucket 151 :nullptr
+Bucket 152 :nullptr
+Bucket 153 :nullptr
+Bucket 154 :nullptr
+Bucket 155 :[catch: 1] -> [meeting: 4] -> nullptr
+Bucket 156 :nullptr
+Bucket 157 :nullptr
+Bucket 158 :[suits: 1] -> [watched: 1] -> nullptr
+Bucket 159 :[see: 2] -> nullptr
+Bucket 160 :nullptr
+Bucket 161 :[forward: 5] -> nullptr
+Bucket 162 :[make: 1] -> nullptr
+Bucket 163 :[let: 4] -> nullptr
+Bucket 164 :nullptr
+Bucket 165 :[distance: 1] -> nullptr
+Bucket 166 :[dinner: 3] -> nullptr
+Bucket 167 :[blame: 1] -> nullptr
+Bucket 168 :nullptr
+Bucket 169 :[gave: 1] -> [available: 3] -> [contingencies: 1] -> nullptr
+Bucket 170 :[inc: 1] -> nullptr
+Bucket 171 :nullptr
+Bucket 172 :[westin: 2] -> nullptr
+Bucket 173 :nullptr
+Bucket 174 :[thursday: 3] -> nullptr
+Bucket 175 :[flying: 1] -> nullptr
+Bucket 176 :[come: 1] -> nullptr
+Bucket 177 :nullptr
+Bucket 178 :[cell: 1] -> [november: 1] -> nullptr
+Bucket 179 :nullptr
+Bucket 180 :nullptr
+Bucket 181 :nullptr
+Bucket 182 :nullptr
+Bucket 183 :[reception: 1] -> nullptr
+Bucket 184 :nullptr
+Bucket 185 :[work: 1] -> nullptr
+Bucket 186 :nullptr
+Bucket 187 :nullptr
+Bucket 188 :nullptr
+Bucket 189 :nullptr
+Bucket 190 :[oaks: 2] -> nullptr
+Bucket 191 :nullptr
+Bucket 192 :nullptr
+Bucket 193 :nullptr
+Bucket 194 :nullptr
+Bucket 195 :nullptr
+Bucket 196 :[th: 1] -> [planned: 1] -> nullptr
+Bucket 197 :nullptr
+Bucket 198 :nullptr
+Bucket 199 :[minutes: 1] -> nullptr
+Bucket 200 :[evening: 3] -> [night: 1] -> nullptr
+Bucket 201 :nullptr
+Bucket 202 :[please: 1] -> nullptr
+Bucket 203 :nullptr
+Bucket 204 :nullptr
+Bucket 205 :nullptr
+Bucket 206 :nullptr
+Bucket 207 :nullptr
+Bucket 208 :nullptr
+Bucket 209 :nullptr
+Bucket 210 :nullptr
+Bucket 211 :nullptr
+Bucket 212 :nullptr
+Bucket 213 :nullptr
+Bucket 214 :nullptr
+Bucket 215 :nullptr
+Bucket 216 :nullptr
+Bucket 217 :nullptr
+Bucket 218 :nullptr
+Bucket 219 :nullptr
+Bucket 220 :nullptr
+Bucket 221 :[thanks: 1] -> nullptr
+Bucket 222 :nullptr
+Bucket 223 :nullptr
+Bucket 224 :nullptr
+Bucket 225 :nullptr
+Bucket 226 :[love: 1] -> nullptr
+Bucket 227 :[know: 2] -> [suggested: 1] -> nullptr
+Bucket 228 :[reservation: 1] -> nullptr
+Bucket 229 :nullptr
+Bucket 230 :nullptr
+Bucket 231 :[leave: 1] -> nullptr
+Bucket 232 :nullptr
+Bucket 233 :nullptr
+Bucket 234 :[won: 1] -> nullptr
+Bucket 235 :nullptr
+Bucket 236 :nullptr
+Bucket 237 :[book: 2] -> nullptr
+Bucket 238 :[enjoyed: 1] -> nullptr
+Bucket 239 :nullptr
+Bucket 240 :nullptr
+Bucket 241 :nullptr
+Bucket 242 :nullptr
+Bucket 243 :[message: 3] -> nullptr
+Bucket 244 :[ll: 2] -> nullptr
+Bucket 245 :nullptr
+Bucket 246 :[mailto: 1] -> nullptr
+Bucket 247 :nullptr
+Bucket 248 :[cc: 4] -> nullptr
+Bucket 249 :nullptr
+Bucket 250 :nullptr
+Bucket 251 :nullptr
+Bucket 252 :nullptr
+Bucket 253 :[kaminski: 6] -> nullptr
+Bucket 254 :nullptr
+Bucket 255 :[risk: 1] -> nullptr
+Bucket 256 :nullptr
+Bucket 257 :nullptr
+Bucket 258 :nullptr
+Bucket 259 :nullptr
+Bucket 260 :[delays: 1] -> nullptr
+Bucket 261 :nullptr
+Bucket 262 :nullptr
+Bucket 263 :nullptr
+Bucket 264 :[italian: 2] -> nullptr
+Bucket 265 :nullptr
+Bucket 266 :nullptr
+Bucket 267 :[place: 1] -> nullptr
+Bucket 268 :nullptr
+Bucket 269 :nullptr
+Bucket 270 :nullptr
+Bucket 271 :nullptr
+Bucket 272 :nullptr
+Bucket 273 :nullptr
+Bucket 274 :nullptr
+Bucket 275 :[latest: 1] -> nullptr
+Bucket 276 :nullptr
+Bucket 277 :nullptr
+Bucket 278 :[steakhouse: 1] -> nullptr
+Bucket 279 :nullptr
+Bucket 280 :nullptr
+Bucket 281 :[doesn: 1] -> nullptr
+Bucket 282 :nullptr
+Bucket 283 :nullptr
+Bucket 284 :nullptr
+Bucket 285 :[com: 8] -> nullptr
+Bucket 286 :nullptr
+Bucket 287 :[vkaminski: 1] -> nullptr
+Bucket 288 :nullptr
+Bucket 289 :nullptr
+Bucket 290 :nullptr
+Bucket 291 :[really: 2] -> nullptr
+-------------------------------------------
+
+
+--- Reporte de Frecuencia de Palabras ---
+'either': 2
+'greetings': 1
+'confirm': 1
+'shall': 3
+'weather': 1
+'faizs': 1
+'enron': 6
+'flight': 2
+'hope': 4
+'walking': 1
+'look': 5
+'monday': 1
+'nice': 1
+'phone': 1
+'several': 1
+'perfect': 1
+'vince': 11
+'well': 1
+'ny': 1
+'schedule': 1
+'within': 1
+'easily': 1
+'choice': 1
+'restaurants': 1
+'get': 1
+'town': 2
+'around': 1
+'meet': 3
+'ok': 1
+'next': 2
+'suffered': 1
+'december': 2
+'lately': 1
+'visit': 7
+'sent': 1
+'reach': 1
+'faiz': 4
+'seems': 1
+'staying': 1
+'arrangement': 1
+'thurs': 2
+'will': 2
+'pm': 4
+'time': 2
+'original': 1
+'houston': 9
+'steak': 1
+'soussan': 8
+'philly': 1
+'week': 1
+'check': 1
+'way': 1
+'best': 2
+'j': 6
+'m': 1
+'great': 5
+'hopefully': 1
+'p': 1
+'subject': 6
+'assuming': 1
+'aol': 1
+'although': 1
+'s': 3
+'t': 2
+'preferred': 1
+'better': 1
+'thanksgiving': 1
+'morning': 1
+'coming': 2
+'last': 2
+'usual': 1
+'texaco': 2
+'re': 6
+'pls': 1
+'problem': 1
+'back': 1
+'contact': 1
+'april': 1
+'dear': 1
+'insights': 1
+'can': 4
+'galleria': 2
+'catch': 1
+'meeting': 4
+'suits': 1
+'watched': 1
+'see': 2
+'forward': 5
+'make': 1
+'let': 4
+'distance': 1
+'dinner': 3
+'blame': 1
+'gave': 1
+'available': 3
+'contingencies': 1
+'inc': 1
+'westin': 2
+'thursday': 3
+'flying': 1
+'come': 1
+'cell': 1
+'november': 1
+'reception': 1
+'work': 1
+'oaks': 2
+'th': 1
+'planned': 1
+'minutes': 1
+'evening': 3
+'night': 1
+'please': 1
+'thanks': 1
+'love': 1
+'know': 2
+'suggested': 1
+'reservation': 1
+'leave': 1
+'won': 1
+'book': 2
+'enjoyed': 1
+'message': 3
+'ll': 2
+'mailto': 1
+'cc': 4
+'kaminski': 6
+'risk': 1
+'delays': 1
+'italian': 2
+'place': 1
+'latest': 1
+'steakhouse': 1
+'doesn': 1
+'com': 8
+'vkaminski': 1
+'really': 2
+------------------------------------------
+Total de palabras unicas encontradas: 136
+------------------------------------------
+
